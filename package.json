@@ -1,0 +1,20 @@
+{
+  "name": "privacy-risk-detection-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ML-powered Privacy Risk Detection System",
+  "scripts": {
+    "dev": "concurrently -k -n ML,API,WEB \"npm run dev:ml\" \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:ml": "python -m uvicorn app.main:app --app-dir services/ml --host 127.0.0.1 --port 8001 --reload",
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev:web": "npm --prefix apps/web run dev",
+    "setup:ml": "python -m pip install -r services/ml/requirements.txt",
+    "test:ml": "python -m pytest services/ml/tests -q",
+    "build:web": "npm --prefix apps/web run build",
+    "build:api": "npm --prefix apps/api run build",
+    "build": "npm run build:web && npm run build:api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+**/node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+services/ml/.venv/

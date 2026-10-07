@@ -1,0 +1,1201 @@
+text,risk_level,finding_count,distinct_pii_types,authentication_count,financial_count,government_id_count,context_hits,urgency
+date of birth 15/08/2004 for the project record.,LOW,1,1,0,0,0,0,0
+card 5555555555554444 password MySecretPass123 account 123456789012 for identity verification.,CRITICAL,4,4,1,2,1,1,0
+Aadhaar 2345 6789 0123 Voter ID QWE2468135 account 456789012345 for reference.,HIGH,4,3,0,1,2,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+phone +91 9988776655 for registration.,LOW,1,1,0,0,0,1,0
+IFSC ICIC0001234 passport A1234567 for reference.,MEDIUM,2,2,0,0,0,0,0
+IFSC HDFC0001234 account 987654321098 PAN FGHIJ5678K because the account is being reviewed.,HIGH,4,4,0,1,2,0,0
+URGENT: password SecurePwd456 PAN ABCDE1234F for identity verification.,CRITICAL,2,2,1,0,1,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: account 456789012345 because the account is being reviewed.,HIGH,2,2,0,1,1,1,1
+account 987654321098 Voter ID QWE2468135 for reference.,HIGH,3,3,0,1,1,0,0
+passport A1234567 please upload it.,LOW,1,1,0,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+email demo.user@mail.com please share it.,LOW,1,1,0,0,0,1,0
+account 456789012345 email demo.user@mail.com for reference.,HIGH,3,3,0,1,1,0,0
+email user@example.com card 4111111111111111 date of birth 15/08/2004 GSTIN 27FGHIJ5678K2Z6 for registration.,HIGH,4,4,0,1,0,1,0
+email student@example.com account 456789012345 please upload it.,HIGH,3,3,0,1,1,1,0
+driving license KA05 20210054321 UPI ID student@upi OTP 582941 IP address 10.0.0.42 because the account is being reviewed.,HIGH,4,4,1,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+passport K7654321 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+OTP 728391 phone +91 9876543210 email contact@example.org driving license AP01 20230012345 please upload it.,HIGH,4,4,1,0,0,1,0
+GSTIN 37ABCDE1234F1Z5 Voter ID ABC1234567 account 987654321098 PAN ABCDE1234F for the project record.,CRITICAL,5,5,0,1,2,0,0
+Aadhaar 3456 7890 1234 IP address 172.16.0.8 passport A1234567 URGENT: provide it now.,HIGH,3,3,0,0,1,2,1
+URGENT: date of birth 15/08/2004 for the project record.,MEDIUM,1,1,0,0,0,1,1
+date of birth 15/08/2004 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: password SecurePwd456 PAN FGHIJ5678K IFSC ICIC0001234 for the project record.,CRITICAL,3,3,1,0,1,1,1
+Voter ID QWE2468135 account 123456789012 for reference.,HIGH,3,3,0,1,1,0,0
+passport A1234567 for identity verification.,LOW,1,1,0,0,0,1,0
+URGENT: passport K7654321 PAN ABCDE1234F password MySecretPass123 send it immediately.,CRITICAL,3,3,1,0,1,3,1
+URGENT: The application server is available for testing.,LOW,0,0,0,0,0,1,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Voter ID XYZ7654321 card 5555555555554444 password MySecretPass123 please share it.,CRITICAL,3,3,1,1,0,1,0
+email demo.user@mail.com password SecurePwd456 account 987654321098 OTP 482916 to complete account verification.,CRITICAL,5,5,2,1,1,1,0
+URGENT: GSTIN 37ABCDE1234F1Z5 password SecurePwd456 OTP 582941 send it immediately.,CRITICAL,3,3,2,0,0,3,1
+phone +91 9876543210 card 4111111111111111 UPI ID demo.user@icici URGENT: provide it now.,HIGH,3,3,0,1,0,2,1
+passport K7654321 please upload it.,LOW,1,1,0,0,0,1,0
+URGENT: Aadhaar 2345 6789 0123 Voter ID ABC1234567 account 456789012345 password DemoPass789 to process the refund.,CRITICAL,5,4,1,1,2,2,1
+PAN FGHIJ5678K for identity verification.,MEDIUM,1,1,0,0,1,1,0
+PAN LMNOP9012Q IP address 172.16.0.8 Aadhaar 4567 8901 2345 for reference.,HIGH,3,3,0,0,2,0,0
+phone +91 9123456789 IP address 172.16.0.8 Aadhaar 4567 8901 2345 URGENT: provide it now.,HIGH,3,3,0,0,1,2,1
+IFSC SBIN0001234 date of birth 15/08/2004 password DemoPass789 PAN LMNOP9012Q to process the refund.,CRITICAL,4,4,1,0,1,1,0
+phone +91 9123456789 IFSC HDFC0001234 URGENT: provide it now.,MEDIUM,2,2,0,0,0,2,1
+email contact@example.org card 4111111111111111 PAN ABCDE1234F please share it.,HIGH,3,3,0,1,1,1,0
+card 4111111111111111 OTP 482916 driving license TS09 20190067890 to complete account verification.,CRITICAL,3,3,1,1,0,1,0
+passport K7654321 for reference.,LOW,1,1,0,0,0,0,0
+IFSC ICIC0001234 account 456789012345 for reference.,HIGH,3,3,0,1,1,0,0
+card 5555555555554444 phone +91 9988776655 IFSC HDFC0001234 for reference.,MEDIUM,3,3,0,1,0,0,0
+URGENT: OTP 582941 date of birth 15/08/2004 Aadhaar 2345 6789 0123 for reference.,CRITICAL,3,3,1,0,1,1,1
+URGENT: Voter ID QWE2468135 UPI ID student@upi because the account is being reviewed.,MEDIUM,2,2,0,0,0,1,1
+account 456789012345 OTP 728391 for reference.,CRITICAL,3,3,1,1,1,0,0
+GSTIN 27FGHIJ5678K2Z6 IP address 172.16.0.8 driving license AP01 20230012345 URGENT: provide it now.,MEDIUM,3,3,0,0,0,2,1
+GSTIN 37ABCDE1234F1Z5 please upload it.,LOW,1,1,0,0,0,1,0
+UPI ID demo.user@icici please share it.,LOW,1,1,0,0,0,1,0
+URGENT: driving license AP01 20230012345 OTP 582941 password SecurePwd456 Voter ID ABC1234567 for identity verification.,CRITICAL,4,4,2,0,0,2,1
+passport M2468135 phone +91 9123456789 because the account is being reviewed.,LOW,2,2,0,0,0,0,0
+phone +91 9876543210 driving license AP01 20230012345 because the account is being reviewed.,MEDIUM,2,2,0,0,0,0,0
+URGENT: Voter ID ABC1234567 date of birth 15/08/2004 password MySecretPass123 card 5555555555554444 please share it.,CRITICAL,4,4,1,1,0,2,1
+Aadhaar 2345 6789 0123 IFSC HDFC0001234 password SecurePwd456 phone +91 9876543210 please upload it.,CRITICAL,4,4,1,0,1,1,0
+date of birth 15/08/2004 card 5555555555554444 because the account is being reviewed.,MEDIUM,2,2,0,1,0,0,0
+card 4111111111111111 password DemoPass789 to complete account verification.,HIGH,2,2,1,1,0,1,0
+password MySecretPass123 email student@example.com account 987654321098 for reference.,CRITICAL,4,4,1,1,1,0,0
+password MySecretPass123 please upload it.,MEDIUM,1,1,1,0,0,1,0
+driving license KA05 20210054321 email contact@example.org date of birth 15/08/2004 URGENT: provide it now.,MEDIUM,3,3,0,0,0,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+PAN FGHIJ5678K because the account is being reviewed.,MEDIUM,1,1,0,0,1,0,0
+phone +91 9123456789 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+Aadhaar 4567 8901 2345 OTP 839201 UPI ID mahendra@oksbi send it immediately.,CRITICAL,3,3,1,0,1,2,1
+PAN ABCDE1234F card 4111111111111111 UPI ID demo.user@icici for registration.,HIGH,3,3,0,1,1,1,0
+card 4111111111111111 IFSC SBIN0001234 for identity verification.,HIGH,2,2,0,1,0,1,0
+URGENT: UPI ID student@upi phone +91 9123456789 send it immediately.,MEDIUM,2,2,0,0,0,3,1
+card 4111111111111111 for registration.,MEDIUM,1,1,0,1,0,1,0
+date of birth 15/08/2004 URGENT: provide it now.,MEDIUM,1,1,0,0,0,2,1
+IP address 192.168.1.25 GSTIN 29LMNOP9012Q3Z7 driving license AP01 20230012345 please upload it.,MEDIUM,3,3,0,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+card 5555555555554444 passport M2468135 date of birth 15/08/2004 UPI ID demo.user@icici because the account is being reviewed.,HIGH,4,4,0,1,0,0,0
+IFSC HDFC0001234 date of birth 15/08/2004 phone +91 9123456789 for identity verification.,MEDIUM,3,3,0,0,0,1,0
+email student@example.com PAN LMNOP9012Q password MySecretPass123 please share it.,CRITICAL,3,3,1,0,1,1,0
+date of birth 15/08/2004 please share it.,LOW,1,1,0,0,0,1,0
+account 456789012345 OTP 728391 because the account is being reviewed.,CRITICAL,3,3,1,1,1,0,0
+account 987654321098 send it immediately.,HIGH,2,2,0,1,1,2,1
+email contact@example.org to complete account verification.,LOW,1,1,0,0,0,1,0
+Aadhaar 3456 7890 1234 GSTIN 27FGHIJ5678K2Z6 URGENT: provide it now.,MEDIUM,2,2,0,0,1,2,1
+URGENT: card 4111111111111111 to process the refund.,MEDIUM,1,1,0,1,0,2,1
+account 987654321098 phone +91 9876543210 to complete account verification.,HIGH,3,3,0,1,1,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+card 4111111111111111 account 987654321098 to complete account verification.,HIGH,3,3,0,2,1,1,0
+date of birth 15/08/2004 Aadhaar 2345 6789 0123 to complete account verification.,MEDIUM,2,2,0,0,1,1,0
+password DemoPass789 passport K7654321 PAN ABCDE1234F to complete account verification.,CRITICAL,3,3,1,0,1,1,0
+URGENT: IP address 192.168.1.25 account 456789012345 passport K7654321 Voter ID ABC1234567 because the account is being reviewed.,CRITICAL,5,5,0,1,1,1,1
+Voter ID QWE2468135 date of birth 15/08/2004 for registration.,MEDIUM,2,2,0,0,0,1,0
+URGENT: password SecurePwd456 for reference.,MEDIUM,1,1,1,0,0,1,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+password SecurePwd456 PAN FGHIJ5678K driving license AP01 20230012345 phone +91 9876543210 URGENT: provide it now.,CRITICAL,4,4,1,0,1,2,1
+passport M2468135 for reference.,LOW,1,1,0,0,0,0,0
+account 987654321098 password MySecretPass123 please upload it.,CRITICAL,3,3,1,1,1,1,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+PAN FGHIJ5678K Aadhaar 3456 7890 1234 passport M2468135 to complete account verification.,HIGH,3,3,0,0,2,1,0
+Aadhaar 3456 7890 1234 please share it.,MEDIUM,1,1,0,0,1,1,0
+account 987654321098 OTP 839201 PAN FGHIJ5678K URGENT: provide it now.,CRITICAL,4,4,1,1,2,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: OTP 482916 account 987654321098 PAN FGHIJ5678K for reference.,CRITICAL,4,4,1,1,2,1,1
+UPI ID demo.user@icici for reference.,LOW,1,1,0,0,0,0,0
+account 456789012345 password SecurePwd456 for reference.,CRITICAL,3,3,1,1,1,0,0
+IFSC HDFC0001234 card 5555555555554444 email demo.user@mail.com because the account is being reviewed.,MEDIUM,3,3,0,1,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+Aadhaar 2345 6789 0123 phone +91 9123456789 for reference.,MEDIUM,2,2,0,0,1,0,0
+URGENT: account 456789012345 card 5555555555554444 send it immediately.,HIGH,3,3,0,2,1,3,1
+URGENT: OTP 582941 Aadhaar 3456 7890 1234 IP address 192.168.1.25 please share it.,CRITICAL,3,3,1,0,1,2,1
+email user@example.com Voter ID QWE2468135 to complete account verification.,MEDIUM,2,2,0,0,0,1,0
+PAN LMNOP9012Q Aadhaar 3456 7890 1234 GSTIN 27FGHIJ5678K2Z6 send it immediately.,HIGH,3,3,0,0,2,2,1
+UPI ID demo.user@icici OTP 839201 IP address 10.0.0.42 PAN LMNOP9012Q for identity verification.,CRITICAL,4,4,1,0,1,1,0
+phone +91 9988776655 card 5555555555554444 date of birth 15/08/2004 please share it.,MEDIUM,3,3,0,1,0,1,0
+URGENT: PAN LMNOP9012Q OTP 839201 for identity verification.,CRITICAL,2,2,1,0,1,2,1
+card 4111111111111111 IFSC SBIN0001234 please share it.,MEDIUM,2,2,0,1,0,1,0
+URGENT: IP address 172.16.0.8 please upload it.,MEDIUM,1,1,0,0,0,2,1
+card 5555555555554444 IP address 192.168.1.25 password SecurePwd456 URGENT: provide it now.,CRITICAL,3,3,1,1,0,2,1
+URGENT: password DemoPass789 Aadhaar 3456 7890 1234 URGENT: provide it now.,CRITICAL,2,2,1,0,1,2,1
+card 5555555555554444 OTP 839201 password DemoPass789 for reference.,CRITICAL,3,3,2,1,0,0,0
+password MySecretPass123 account 123456789012 date of birth 15/08/2004 because the account is being reviewed.,CRITICAL,4,4,1,1,1,0,0
+UPI ID demo.user@icici please upload it.,LOW,1,1,0,0,0,1,0
+PAN FGHIJ5678K account 123456789012 Voter ID QWE2468135 card 4111111111111111 please share it.,CRITICAL,5,5,0,2,2,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+password SecurePwd456 for registration.,MEDIUM,1,1,1,0,0,1,0
+card 5555555555554444 Voter ID QWE2468135 OTP 482916 for reference.,CRITICAL,3,3,1,1,0,0,0
+URGENT: phone +91 9876543210 account 456789012345 GSTIN 37ABCDE1234F1Z5 for reference.,HIGH,4,4,0,1,1,1,1
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+account 123456789012 for the project record.,MEDIUM,2,2,0,1,1,0,0
+URGENT: account 987654321098 driving license AP01 20230012345 password SecurePwd456 for reference.,CRITICAL,4,4,1,1,1,1,1
+URGENT: email student@example.com please share it.,MEDIUM,1,1,0,0,0,2,1
+GSTIN 29LMNOP9012Q3Z7 UPI ID demo.user@icici phone +91 9876543210 to complete account verification.,MEDIUM,3,3,0,0,0,1,0
+password DemoPass789 email contact@example.org URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+OTP 582941 date of birth 15/08/2004 PAN LMNOP9012Q passport A1234567 send it immediately.,CRITICAL,4,4,1,0,1,2,1
+password MySecretPass123 email contact@example.org PAN LMNOP9012Q phone +91 9988776655 for reference.,CRITICAL,4,4,1,0,1,0,0
+driving license AP01 20230012345 password MySecretPass123 OTP 839201 because the account is being reviewed.,CRITICAL,3,3,2,0,0,0,0
+PAN FGHIJ5678K for reference.,MEDIUM,1,1,0,0,1,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+URGENT: Voter ID XYZ7654321 IP address 172.16.0.8 GSTIN 37ABCDE1234F1Z5 to complete account verification.,MEDIUM,3,3,0,0,0,2,1
+URGENT: password SecurePwd456 account 987654321098 please upload it.,CRITICAL,3,3,1,1,1,2,1
+URGENT: card 5555555555554444 UPI ID student@upi for identity verification.,MEDIUM,2,2,0,1,0,2,1
+IFSC HDFC0001234 account 456789012345 for reference.,HIGH,3,3,0,1,1,0,0
+URGENT: account 123456789012 send it immediately.,HIGH,2,2,0,1,1,3,1
+passport K7654321 date of birth 15/08/2004 card 5555555555554444 URGENT: provide it now.,HIGH,3,3,0,1,0,2,1
+card 5555555555554444 for identity verification.,MEDIUM,1,1,0,1,0,1,0
+card 4111111111111111 phone +91 9876543210 date of birth 15/08/2004 to process the refund.,MEDIUM,3,3,0,1,0,1,0
+IP address 172.16.0.8 for registration.,LOW,1,1,0,0,0,1,0
+email student@example.com UPI ID student@upi Voter ID ABC1234567 URGENT: provide it now.,MEDIUM,3,3,0,0,0,2,1
+card 4111111111111111 OTP 582941 for reference.,HIGH,2,2,1,1,0,0,0
+email demo.user@mail.com phone +91 9123456789 for reference.,MEDIUM,2,2,0,0,0,0,0
+passport M2468135 to complete account verification.,LOW,1,1,0,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+PAN FGHIJ5678K driving license TS09 20190067890 phone +91 9876543210 URGENT: provide it now.,HIGH,3,3,0,0,1,2,1
+UPI ID mahendra@oksbi password DemoPass789 account 987654321098 IFSC SBIN0001234 please share it.,CRITICAL,5,5,1,1,1,1,0
+password MySecretPass123 email student@example.com card 4111111111111111 for reference.,CRITICAL,3,3,1,1,0,0,0
+passport M2468135 IP address 172.16.0.8 because the account is being reviewed.,MEDIUM,2,2,0,0,0,0,0
+OTP 482916 Voter ID XYZ7654321 date of birth 15/08/2004 for registration.,HIGH,3,3,1,0,0,1,0
+email student@example.com PAN FGHIJ5678K UPI ID demo.user@icici for identity verification.,MEDIUM,3,3,0,0,1,1,0
+IP address 10.0.0.42 date of birth 15/08/2004 because the account is being reviewed.,MEDIUM,2,2,0,0,0,0,0
+passport K7654321 for identity verification.,MEDIUM,1,1,0,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+IP address 192.168.1.25 IFSC SBIN0001234 for registration.,LOW,2,2,0,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+account 987654321098 OTP 582941 for the project record.,CRITICAL,3,3,1,1,1,0,0
+IFSC ICIC0001234 phone +91 9123456789 PAN LMNOP9012Q to process the refund.,LOW,3,3,0,0,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+email user@example.com PAN LMNOP9012Q URGENT: provide it now.,MEDIUM,2,2,0,0,1,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+card 5555555555554444 Voter ID QWE2468135 email student@example.com account 987654321098 because the account is being reviewed.,CRITICAL,5,5,0,2,1,0,0
+PAN FGHIJ5678K OTP 728391 for the project record.,HIGH,2,2,1,0,1,0,0
+card 4111111111111111 send it immediately.,HIGH,1,1,0,1,0,2,1
+phone +91 9123456789 driving license KA05 20210054321 account 987654321098 passport M2468135 for identity verification.,HIGH,5,5,0,1,1,1,0
+passport A1234567 to process the refund.,LOW,1,1,0,0,0,1,0
+URGENT: phone +91 9988776655 please upload it.,MEDIUM,1,1,0,0,0,2,1
+IP address 192.168.1.25 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: IFSC HDFC0001234 to complete account verification.,MEDIUM,1,1,0,0,0,2,1
+PAN FGHIJ5678K for identity verification.,MEDIUM,1,1,0,0,1,1,0
+Aadhaar 3456 7890 1234 driving license AP01 20230012345 IP address 192.168.1.25 UPI ID demo.user@icici send it immediately.,HIGH,4,4,0,0,1,2,1
+email student@example.com phone +91 9876543210 IFSC HDFC0001234 for identity verification.,MEDIUM,3,3,0,0,0,1,0
+card 5555555555554444 password MySecretPass123 for identity verification.,HIGH,2,2,1,1,0,1,0
+Aadhaar 2345 6789 0123 IFSC ICIC0001234 GSTIN 29LMNOP9012Q3Z7 URGENT: provide it now.,HIGH,3,3,0,0,1,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+IP address 192.168.1.25 Aadhaar 3456 7890 1234 send it immediately.,MEDIUM,2,2,0,0,1,2,1
+phone +91 9988776655 please upload it.,LOW,1,1,0,0,0,1,0
+phone +91 9876543210 please upload it.,LOW,1,1,0,0,0,1,0
+account 987654321098 Aadhaar 2345 6789 0123 OTP 728391 to process the refund.,CRITICAL,4,3,1,1,2,1,0
+OTP 728391 GSTIN 27FGHIJ5678K2Z6 password MySecretPass123 send it immediately.,CRITICAL,3,3,2,0,0,2,1
+account 123456789012 card 5555555555554444 for identity verification.,HIGH,3,3,0,2,1,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+UPI ID student@upi phone +91 9988776655 Voter ID ABC1234567 password DemoPass789 for identity verification.,HIGH,4,4,1,0,0,1,0
+password DemoPass789 for identity verification.,MEDIUM,1,1,1,0,0,1,0
+passport K7654321 URGENT: provide it now.,MEDIUM,1,1,0,0,0,2,1
+PAN LMNOP9012Q UPI ID demo.user@icici OTP 728391 GSTIN 37ABCDE1234F1Z5 to process the refund.,CRITICAL,4,4,1,0,1,1,0
+URGENT: passport M2468135 account 456789012345 date of birth 15/08/2004 IFSC HDFC0001234 for identity verification.,CRITICAL,5,5,0,1,1,2,1
+OTP 482916 PAN ABCDE1234F for the project record.,HIGH,2,2,1,0,1,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Voter ID XYZ7654321 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+IP address 192.168.1.25 OTP 839201 password DemoPass789 date of birth 15/08/2004 for reference.,CRITICAL,4,4,2,0,0,0,0
+phone +91 9123456789 card 5555555555554444 account 456789012345 for reference.,CRITICAL,4,4,0,2,1,0,0
+driving license KA05 20210054321 Aadhaar 4567 8901 2345 OTP 482916 to process the refund.,CRITICAL,3,3,1,0,1,1,0
+account 987654321098 passport K7654321 password DemoPass789 for identity verification.,CRITICAL,4,4,1,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+URGENT: OTP 582941 PAN LMNOP9012Q IFSC SBIN0001234 Aadhaar 3456 7890 1234 send it immediately.,CRITICAL,4,4,1,0,2,3,1
+URGENT: account 456789012345 card 4111111111111111 email user@example.com for reference.,CRITICAL,4,4,0,2,1,1,1
+IP address 172.16.0.8 Voter ID ABC1234567 OTP 728391 phone +91 9123456789 to process the refund.,HIGH,4,4,1,0,0,1,0
+PAN FGHIJ5678K OTP 582941 to complete account verification.,HIGH,2,2,1,0,1,1,0
+card 5555555555554444 Aadhaar 2345 6789 0123 send it immediately.,HIGH,2,2,0,1,1,2,1
+UPI ID demo.user@icici card 4111111111111111 please share it.,MEDIUM,2,2,0,1,0,1,0
+card 4111111111111111 for reference.,HIGH,1,1,0,1,0,0,0
+URGENT: IFSC SBIN0001234 Aadhaar 3456 7890 1234 card 4111111111111111 to complete account verification.,HIGH,3,3,0,1,1,2,1
+URGENT: account 987654321098 driving license TS09 20190067890 for reference.,HIGH,3,3,0,1,1,1,1
+URGENT: UPI ID student@upi please upload it.,MEDIUM,1,1,0,0,0,2,1
+phone +91 9988776655 account 456789012345 Aadhaar 2345 6789 0123 PAN LMNOP9012Q for reference.,CRITICAL,5,4,0,1,3,0,0
+IP address 172.16.0.8 phone +91 9988776655 for reference.,MEDIUM,2,2,0,0,0,0,0
+card 4111111111111111 for identity verification.,MEDIUM,1,1,0,1,0,1,0
+passport M2468135 PAN LMNOP9012Q for reference.,HIGH,2,2,0,0,1,0,0
+GSTIN 37ABCDE1234F1Z5 UPI ID mahendra@oksbi email user@example.com account 987654321098 because the account is being reviewed.,HIGH,5,5,0,1,1,0,0
+phone +91 9123456789 for the project record.,LOW,1,1,0,0,0,0,0
+date of birth 15/08/2004 to complete account verification.,LOW,1,1,0,0,0,1,0
+password DemoPass789 email contact@example.org OTP 728391 PAN ABCDE1234F for registration.,CRITICAL,4,4,2,0,1,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Aadhaar 3456 7890 1234 password MySecretPass123 to complete account verification.,HIGH,2,2,1,0,1,1,0
+Voter ID XYZ7654321 for registration.,LOW,1,1,0,0,0,1,0
+URGENT: GSTIN 29LMNOP9012Q3Z7 OTP 482916 email user@example.com please upload it.,HIGH,3,3,1,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+URGENT: passport A1234567 OTP 482916 Aadhaar 2345 6789 0123 for reference.,CRITICAL,3,3,1,0,1,1,1
+password DemoPass789 OTP 839201 driving license TS09 20190067890 for the project record.,CRITICAL,3,3,2,0,0,0,0
+account 123456789012 Voter ID QWE2468135 date of birth 15/08/2004 URGENT: provide it now.,CRITICAL,4,4,0,1,1,2,1
+PAN ABCDE1234F GSTIN 29LMNOP9012Q3Z7 date of birth 15/08/2004 for reference.,MEDIUM,3,3,0,0,1,0,0
+GSTIN 29LMNOP9012Q3Z7 card 4111111111111111 please share it.,HIGH,2,2,0,1,0,1,0
+passport M2468135 for the project record.,LOW,1,1,0,0,0,0,0
+URGENT: passport A1234567 account 987654321098 GSTIN 37ABCDE1234F1Z5 for registration.,CRITICAL,4,4,0,1,1,2,1
+password DemoPass789 passport A1234567 GSTIN 27FGHIJ5678K2Z6 for reference.,MEDIUM,3,3,1,0,0,0,0
+account 987654321098 card 5555555555554444 GSTIN 37ABCDE1234F1Z5 to complete account verification.,HIGH,4,4,0,2,1,1,0
+passport M2468135 IFSC SBIN0001234 UPI ID student@upi for reference.,MEDIUM,3,3,0,0,0,0,0
+URGENT: Aadhaar 3456 7890 1234 card 4111111111111111 password SecurePwd456 send it immediately.,CRITICAL,3,3,1,1,1,3,1
+URGENT: IP address 172.16.0.8 for reference.,MEDIUM,1,1,0,0,0,1,1
+passport M2468135 for reference.,LOW,1,1,0,0,0,0,0
+card 5555555555554444 IFSC SBIN0001234 date of birth 15/08/2004 URGENT: provide it now.,HIGH,3,3,0,1,0,2,1
+password SecurePwd456 card 4111111111111111 driving license KA05 20210054321 IFSC ICIC0001234 for reference.,CRITICAL,4,4,1,1,0,0,0
+URGENT: IFSC SBIN0001234 Voter ID QWE2468135 send it immediately.,MEDIUM,2,2,0,0,0,3,1
+account 123456789012 email demo.user@mail.com for reference.,HIGH,3,3,0,1,1,0,0
+URGENT: driving license TS09 20190067890 UPI ID demo.user@icici please upload it.,MEDIUM,2,2,0,0,0,2,1
+PAN LMNOP9012Q card 5555555555554444 for reference.,MEDIUM,2,2,0,1,1,0,0
+Voter ID XYZ7654321 driving license AP01 20230012345 email user@example.com for reference.,HIGH,3,3,0,0,0,0,0
+phone +91 9123456789 PAN ABCDE1234F Aadhaar 3456 7890 1234 please share it.,HIGH,3,3,0,0,2,1,0
+OTP 582941 passport K7654321 password MySecretPass123 GSTIN 37ABCDE1234F1Z5 for reference.,CRITICAL,4,4,2,0,0,0,0
+phone +91 9876543210 for reference.,LOW,1,1,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: password SecurePwd456 send it immediately.,MEDIUM,1,1,1,0,0,3,1
+URGENT: password MySecretPass123 UPI ID student@upi phone +91 9988776655 for identity verification.,HIGH,3,3,1,0,0,2,1
+passport K7654321 OTP 728391 account 987654321098 for reference.,CRITICAL,4,4,1,1,1,0,0
+PAN LMNOP9012Q GSTIN 37ABCDE1234F1Z5 for registration.,MEDIUM,2,2,0,0,1,1,0
+date of birth 15/08/2004 OTP 839201 for reference.,MEDIUM,2,2,1,0,0,0,0
+card 5555555555554444 password MySecretPass123 to complete account verification.,HIGH,2,2,1,1,0,1,0
+password DemoPass789 Aadhaar 2345 6789 0123 email demo.user@mail.com URGENT: provide it now.,CRITICAL,3,3,1,0,1,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+PAN ABCDE1234F card 4111111111111111 OTP 582941 password MySecretPass123 please upload it.,CRITICAL,4,4,2,1,1,1,0
+email student@example.com passport K7654321 account 987654321098 PAN LMNOP9012Q for registration.,CRITICAL,5,5,0,1,2,1,0
+account 123456789012 card 4111111111111111 OTP 839201 PAN LMNOP9012Q for identity verification.,CRITICAL,5,5,1,2,2,1,0
+date of birth 15/08/2004 email user@example.com send it immediately.,MEDIUM,2,2,0,0,0,2,1
+IFSC HDFC0001234 passport M2468135 for reference.,MEDIUM,2,2,0,0,0,0,0
+GSTIN 29LMNOP9012Q3Z7 OTP 582941 account 987654321098 to process the refund.,CRITICAL,4,4,1,1,1,1,0
+passport A1234567 Voter ID XYZ7654321 IP address 10.0.0.42 OTP 482916 to complete account verification.,HIGH,4,4,1,0,0,1,0
+Voter ID XYZ7654321 password DemoPass789 IP address 10.0.0.42 email user@example.com to process the refund.,HIGH,4,4,1,0,0,1,0
+PAN LMNOP9012Q driving license KA05 20210054321 card 4111111111111111 password DemoPass789 for reference.,CRITICAL,4,4,1,1,1,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Voter ID QWE2468135 IFSC SBIN0001234 please upload it.,MEDIUM,2,2,0,0,0,1,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+card 5555555555554444 account 456789012345 for reference.,HIGH,3,3,0,2,1,0,0
+card 5555555555554444 date of birth 15/08/2004 IFSC ICIC0001234 for reference.,MEDIUM,3,3,0,1,0,0,0
+OTP 482916 password MySecretPass123 send it immediately.,CRITICAL,2,2,2,0,0,2,1
+date of birth 15/08/2004 password MySecretPass123 for reference.,MEDIUM,2,2,1,0,0,0,0
+IFSC SBIN0001234 passport K7654321 URGENT: provide it now.,MEDIUM,2,2,0,0,0,2,1
+Aadhaar 4567 8901 2345 URGENT: provide it now.,MEDIUM,1,1,0,0,1,2,1
+GSTIN 27FGHIJ5678K2Z6 Voter ID ABC1234567 for reference.,MEDIUM,2,2,0,0,0,0,0
+phone +91 9876543210 Voter ID QWE2468135 email contact@example.org URGENT: provide it now.,MEDIUM,3,3,0,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+GSTIN 37ABCDE1234F1Z5 UPI ID student@upi to complete account verification.,MEDIUM,2,2,0,0,0,1,0
+OTP 728391 password MySecretPass123 IP address 10.0.0.42 for the project record.,CRITICAL,3,3,2,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+phone +91 9988776655 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+Aadhaar 4567 8901 2345 please share it.,MEDIUM,1,1,0,0,1,1,0
+GSTIN 29LMNOP9012Q3Z7 for reference.,LOW,1,1,0,0,0,0,0
+password SecurePwd456 to process the refund.,MEDIUM,1,1,1,0,0,1,0
+URGENT: PAN ABCDE1234F account 987654321098 phone +91 9123456789 for identity verification.,CRITICAL,4,4,0,1,2,2,1
+URGENT: email student@example.com UPI ID demo.user@icici account 456789012345 password SecurePwd456 because the account is being reviewed.,CRITICAL,5,5,1,1,1,1,1
+URGENT: date of birth 15/08/2004 IP address 10.0.0.42 for identity verification.,MEDIUM,2,2,0,0,0,2,1
+card 5555555555554444 IP address 10.0.0.42 OTP 482916 please upload it.,CRITICAL,3,3,1,1,0,1,0
+PAN FGHIJ5678K Voter ID QWE2468135 send it immediately.,MEDIUM,2,2,0,0,1,2,1
+OTP 482916 date of birth 15/08/2004 password SecurePwd456 for reference.,CRITICAL,3,3,2,0,0,0,0
+GSTIN 37ABCDE1234F1Z5 date of birth 15/08/2004 please upload it.,MEDIUM,2,2,0,0,0,1,0
+card 5555555555554444 OTP 482916 IFSC HDFC0001234 UPI ID student@upi please upload it.,CRITICAL,4,4,1,1,0,1,0
+driving license KA05 20210054321 account 987654321098 IP address 172.16.0.8 card 4111111111111111 to complete account verification.,CRITICAL,5,5,0,2,1,1,0
+URGENT: driving license KA05 20210054321 Voter ID QWE2468135 account 123456789012 to complete account verification.,HIGH,4,4,0,1,1,2,1
+IP address 172.16.0.8 please share it.,LOW,1,1,0,0,0,1,0
+account 456789012345 card 4111111111111111 password DemoPass789 send it immediately.,CRITICAL,4,4,1,2,1,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+passport A1234567 account 456789012345 email student@example.com because the account is being reviewed.,HIGH,4,4,0,1,1,0,0
+account 987654321098 date of birth 15/08/2004 because the account is being reviewed.,HIGH,3,3,0,1,1,0,0
+driving license KA05 20210054321 for reference.,LOW,1,1,0,0,0,0,0
+PAN ABCDE1234F account 456789012345 URGENT: provide it now.,HIGH,3,3,0,1,2,2,1
+PAN ABCDE1234F OTP 582941 please upload it.,HIGH,2,2,1,0,1,1,0
+PAN FGHIJ5678K GSTIN 27FGHIJ5678K2Z6 password SecurePwd456 send it immediately.,CRITICAL,3,3,1,0,1,2,1
+OTP 839201 PAN ABCDE1234F email demo.user@mail.com please upload it.,CRITICAL,3,3,1,0,1,1,0
+URGENT: IFSC ICIC0001234 please share it.,MEDIUM,1,1,0,0,0,2,1
+URGENT: date of birth 15/08/2004 Aadhaar 4567 8901 2345 password SecurePwd456 GSTIN 29LMNOP9012Q3Z7 please share it.,CRITICAL,4,4,1,0,1,2,1
+account 987654321098 email contact@example.org IP address 192.168.1.25 because the account is being reviewed.,HIGH,4,4,0,1,1,0,0
+OTP 582941 IP address 192.168.1.25 password MySecretPass123 because the account is being reviewed.,CRITICAL,3,3,2,0,0,0,0
+URGENT: GSTIN 27FGHIJ5678K2Z6 IP address 192.168.1.25 Voter ID ABC1234567 password MySecretPass123 for the project record.,HIGH,4,4,1,0,0,1,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+driving license AP01 20230012345 date of birth 15/08/2004 OTP 839201 Aadhaar 3456 7890 1234 please share it.,CRITICAL,4,4,1,0,1,1,0
+IFSC HDFC0001234 driving license KA05 20210054321 account 456789012345 please upload it.,HIGH,4,4,0,1,1,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: IP address 192.168.1.25 for reference.,MEDIUM,1,1,0,0,0,1,1
+IFSC HDFC0001234 OTP 482916 password DemoPass789 for reference.,CRITICAL,3,3,2,0,0,0,0
+URGENT: IP address 192.168.1.25 UPI ID demo.user@icici date of birth 15/08/2004 for reference.,MEDIUM,3,3,0,0,0,1,1
+card 5555555555554444 OTP 839201 to process the refund.,HIGH,2,2,1,1,0,1,0
+PAN LMNOP9012Q password MySecretPass123 to complete account verification.,HIGH,2,2,1,0,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: The application server is available for testing.,LOW,0,0,0,0,0,1,1
+passport A1234567 GSTIN 37ABCDE1234F1Z5 for the project record.,MEDIUM,2,2,0,0,0,0,0
+URGENT: date of birth 15/08/2004 please share it.,MEDIUM,1,1,0,0,0,2,1
+account 987654321098 IFSC ICIC0001234 because the account is being reviewed.,HIGH,3,3,0,1,1,0,0
+password SecurePwd456 driving license TS09 20190067890 to complete account verification.,MEDIUM,2,2,1,0,0,1,0
+account 987654321098 card 5555555555554444 password MySecretPass123 to complete account verification.,CRITICAL,4,4,1,2,1,1,0
+password MySecretPass123 UPI ID student@upi PAN ABCDE1234F for registration.,CRITICAL,3,3,1,0,1,1,0
+date of birth 15/08/2004 for reference.,LOW,1,1,0,0,0,0,0
+account 987654321098 IFSC SBIN0001234 card 4111111111111111 UPI ID demo.user@icici for registration.,CRITICAL,5,5,0,2,1,1,0
+IFSC HDFC0001234 phone +91 9876543210 for registration.,MEDIUM,2,2,0,0,0,1,0
+password DemoPass789 IP address 172.16.0.8 Aadhaar 4567 8901 2345 for identity verification.,CRITICAL,3,3,1,0,1,1,0
+phone +91 9988776655 please share it.,LOW,1,1,0,0,0,1,0
+URGENT: OTP 839201 account 987654321098 for registration.,CRITICAL,3,3,1,1,1,2,1
+IFSC SBIN0001234 UPI ID student@upi Voter ID QWE2468135 please share it.,MEDIUM,3,3,0,0,0,1,0
+URGENT: IFSC ICIC0001234 PAN ABCDE1234F IP address 172.16.0.8 Aadhaar 4567 8901 2345 for identity verification.,HIGH,4,4,0,0,2,2,1
+URGENT: date of birth 15/08/2004 phone +91 9123456789 PAN FGHIJ5678K GSTIN 27FGHIJ5678K2Z6 send it immediately.,HIGH,4,4,0,0,1,3,1
+URGENT: passport A1234567 to process the refund.,HIGH,1,1,0,0,0,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+OTP 582941 phone +91 9876543210 Aadhaar 4567 8901 2345 for the project record.,HIGH,3,3,1,0,1,0,0
+PAN LMNOP9012Q IFSC SBIN0001234 to process the refund.,MEDIUM,2,2,0,0,1,1,0
+password MySecretPass123 URGENT: provide it now.,MEDIUM,1,1,1,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+card 5555555555554444 GSTIN 37ABCDE1234F1Z5 because the account is being reviewed.,MEDIUM,2,2,0,1,0,0,0
+phone +91 9876543210 IP address 192.168.1.25 PAN ABCDE1234F for reference.,LOW,3,3,0,0,1,0,0
+URGENT: password DemoPass789 phone +91 9988776655 Voter ID ABC1234567 to complete account verification.,HIGH,3,3,1,0,0,2,1
+Aadhaar 2345 6789 0123 account 123456789012 because the account is being reviewed.,HIGH,3,2,0,1,2,0,0
+account 987654321098 for reference.,MEDIUM,2,2,0,1,1,0,0
+IFSC ICIC0001234 for registration.,LOW,1,1,0,0,0,1,0
+account 987654321098 Aadhaar 3456 7890 1234 driving license TS09 20190067890 GSTIN 27FGHIJ5678K2Z6 to complete account verification.,HIGH,5,4,0,1,2,1,0
+driving license KA05 20210054321 to complete account verification.,LOW,1,1,0,0,0,1,0
+URGENT: OTP 839201 IFSC SBIN0001234 GSTIN 29LMNOP9012Q3Z7 account 123456789012 for reference.,CRITICAL,5,5,1,1,1,1,1
+password SecurePwd456 account 987654321098 OTP 839201 to process the refund.,CRITICAL,4,4,2,1,1,1,0
+IFSC HDFC0001234 password DemoPass789 Voter ID ABC1234567 for the project record.,MEDIUM,3,3,1,0,0,0,0
+URGENT: password MySecretPass123 card 5555555555554444 Voter ID QWE2468135 for reference.,CRITICAL,3,3,1,1,0,1,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+passport A1234567 for identity verification.,LOW,1,1,0,0,0,1,0
+password DemoPass789 phone +91 9988776655 Aadhaar 2345 6789 0123 to complete account verification.,CRITICAL,3,3,1,0,1,1,0
+URGENT: password DemoPass789 OTP 582941 send it immediately.,CRITICAL,2,2,2,0,0,3,1
+password SecurePwd456 email student@example.com UPI ID demo.user@icici for registration.,HIGH,3,3,1,0,0,1,0
+driving license KA05 20210054321 GSTIN 29LMNOP9012Q3Z7 for the project record.,MEDIUM,2,2,0,0,0,0,0
+email contact@example.org password SecurePwd456 for identity verification.,MEDIUM,2,2,1,0,0,1,0
+card 5555555555554444 password DemoPass789 IP address 172.16.0.8 OTP 839201 for reference.,CRITICAL,4,4,2,1,0,0,0
+Aadhaar 2345 6789 0123 password SecurePwd456 for the project record.,HIGH,2,2,1,0,1,0,0
+card 5555555555554444 PAN ABCDE1234F UPI ID demo.user@icici for identity verification.,HIGH,3,3,0,1,1,1,0
+URGENT: Aadhaar 4567 8901 2345 account 456789012345 email student@example.com IFSC SBIN0001234 for registration.,CRITICAL,5,4,0,1,2,2,1
+account 987654321098 IP address 172.16.0.8 phone +91 9123456789 driving license AP01 20230012345 because the account is being reviewed.,HIGH,5,5,0,1,1,0,0
+phone +91 9123456789 password MySecretPass123 OTP 839201 please share it.,CRITICAL,3,3,2,0,0,1,0
+phone +91 9876543210 date of birth 15/08/2004 account 987654321098 UPI ID mahendra@oksbi for reference.,HIGH,5,5,0,1,1,0,0
+IFSC ICIC0001234 for identity verification.,LOW,1,1,0,0,0,1,0
+URGENT: card 4111111111111111 Voter ID QWE2468135 to process the refund.,MEDIUM,2,2,0,1,0,2,1
+Voter ID QWE2468135 for reference.,LOW,1,1,0,0,0,0,0
+PAN LMNOP9012Q OTP 839201 to process the refund.,HIGH,2,2,1,0,1,1,0
+UPI ID mahendra@oksbi passport A1234567 for reference.,MEDIUM,2,2,0,0,0,0,0
+URGENT: OTP 728391 account 123456789012 please upload it.,CRITICAL,3,3,1,1,1,2,1
+driving license AP01 20230012345 for registration.,LOW,1,1,0,0,0,1,0
+account 456789012345 password SecurePwd456 OTP 582941 to process the refund.,CRITICAL,4,4,2,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: Aadhaar 2345 6789 0123 PAN ABCDE1234F IFSC HDFC0001234 for identity verification.,HIGH,3,3,0,0,2,2,1
+IFSC HDFC0001234 password DemoPass789 email user@example.com for reference.,MEDIUM,3,3,1,0,0,0,0
+PAN ABCDE1234F Aadhaar 2345 6789 0123 UPI ID student@upi send it immediately.,HIGH,3,3,0,0,2,2,1
+URGENT: driving license KA05 20210054321 OTP 728391 phone +91 9876543210 Aadhaar 3456 7890 1234 please upload it.,CRITICAL,4,4,1,0,1,2,1
+password SecurePwd456 IFSC ICIC0001234 PAN FGHIJ5678K date of birth 15/08/2004 for reference.,HIGH,4,4,1,0,1,0,0
+password SecurePwd456 card 5555555555554444 email student@example.com for the project record.,CRITICAL,3,3,1,1,0,0,0
+URGENT: UPI ID mahendra@oksbi for registration.,MEDIUM,1,1,0,0,0,2,1
+account 456789012345 because the account is being reviewed.,MEDIUM,2,2,0,1,1,0,0
+URGENT: card 4111111111111111 URGENT: provide it now.,MEDIUM,1,1,0,1,0,2,1
+date of birth 15/08/2004 OTP 728391 password MySecretPass123 because the account is being reviewed.,CRITICAL,3,3,2,0,0,0,0
+URGENT: IP address 192.168.1.25 Aadhaar 2345 6789 0123 date of birth 15/08/2004 IFSC ICIC0001234 for identity verification.,HIGH,4,4,0,0,1,2,1
+driving license TS09 20190067890 phone +91 9876543210 Voter ID XYZ7654321 to process the refund.,MEDIUM,3,3,0,0,0,1,0
+account 987654321098 password DemoPass789 for identity verification.,CRITICAL,3,3,1,1,1,1,0
+card 4111111111111111 for reference.,LOW,1,1,0,1,0,0,0
+IP address 172.16.0.8 phone +91 9988776655 for registration.,MEDIUM,2,2,0,0,0,1,0
+URGENT: Aadhaar 2345 6789 0123 card 5555555555554444 GSTIN 27FGHIJ5678K2Z6 URGENT: provide it now.,HIGH,3,3,0,1,1,2,1
+driving license KA05 20210054321 account 987654321098 card 4111111111111111 phone +91 9123456789 please share it.,CRITICAL,5,5,0,2,1,1,0
+phone +91 9123456789 IP address 192.168.1.25 PAN FGHIJ5678K please upload it.,MEDIUM,3,3,0,0,1,1,0
+URGENT: OTP 839201 date of birth 15/08/2004 UPI ID mahendra@oksbi GSTIN 37ABCDE1234F1Z5 for the project record.,HIGH,4,4,1,0,0,1,1
+Aadhaar 3456 7890 1234 PAN ABCDE1234F date of birth 15/08/2004 because the account is being reviewed.,HIGH,3,3,0,0,2,0,0
+password MySecretPass123 account 123456789012 IFSC HDFC0001234 to process the refund.,CRITICAL,4,4,1,1,1,1,0
+GSTIN 37ABCDE1234F1Z5 please upload it.,LOW,1,1,0,0,0,1,0
+phone +91 9988776655 Aadhaar 3456 7890 1234 Voter ID XYZ7654321 for reference.,MEDIUM,3,3,0,0,1,0,0
+driving license AP01 20230012345 for reference.,LOW,1,1,0,0,0,0,0
+password SecurePwd456 OTP 482916 account 456789012345 for registration.,CRITICAL,4,4,2,1,1,1,0
+password DemoPass789 account 456789012345 IP address 172.16.0.8 for reference.,CRITICAL,4,4,1,1,1,0,0
+phone +91 9123456789 for registration.,LOW,1,1,0,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Aadhaar 3456 7890 1234 IFSC HDFC0001234 please upload it.,MEDIUM,2,2,0,0,1,1,0
+date of birth 15/08/2004 GSTIN 29LMNOP9012Q3Z7 because the account is being reviewed.,MEDIUM,2,2,0,0,0,0,0
+URGENT: date of birth 15/08/2004 URGENT: provide it now.,MEDIUM,1,1,0,0,0,2,1
+UPI ID mahendra@oksbi for reference.,LOW,1,1,0,0,0,0,0
+email student@example.com for reference.,LOW,1,1,0,0,0,0,0
+URGENT: card 4111111111111111 driving license AP01 20230012345 for registration.,MEDIUM,2,2,0,1,0,2,1
+passport K7654321 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: IP address 172.16.0.8 account 456789012345 Voter ID ABC1234567 please share it.,HIGH,4,4,0,1,1,2,1
+URGENT: The application server is available for testing.,LOW,0,0,0,0,0,1,1
+card 5555555555554444 email user@example.com password DemoPass789 PAN LMNOP9012Q for reference.,CRITICAL,4,4,1,1,1,0,0
+UPI ID student@upi PAN FGHIJ5678K password MySecretPass123 please share it.,CRITICAL,3,3,1,0,1,1,0
+URGENT: GSTIN 37ABCDE1234F1Z5 phone +91 9876543210 Voter ID QWE2468135 because the account is being reviewed.,MEDIUM,3,3,0,0,0,1,1
+account 123456789012 IP address 192.168.1.25 card 5555555555554444 to process the refund.,HIGH,4,4,0,2,1,1,0
+PAN ABCDE1234F password SecurePwd456 for identity verification.,HIGH,2,2,1,0,1,1,0
+URGENT: account 456789012345 for reference.,HIGH,2,2,0,1,1,1,1
+PAN LMNOP9012Q phone +91 9988776655 card 5555555555554444 for identity verification.,HIGH,3,3,0,1,1,1,0
+URGENT: phone +91 9123456789 to process the refund.,MEDIUM,1,1,0,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+phone +91 9988776655 UPI ID demo.user@icici OTP 582941 for identity verification.,HIGH,3,3,1,0,0,1,0
+driving license AP01 20230012345 for reference.,LOW,1,1,0,0,0,0,0
+GSTIN 29LMNOP9012Q3Z7 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+phone +91 9123456789 Voter ID XYZ7654321 Aadhaar 2345 6789 0123 GSTIN 27FGHIJ5678K2Z6 to process the refund.,HIGH,4,4,0,0,1,1,0
+GSTIN 27FGHIJ5678K2Z6 account 987654321098 for reference.,HIGH,3,3,0,1,1,0,0
+Voter ID ABC1234567 account 456789012345 card 5555555555554444 for registration.,HIGH,4,4,0,2,1,1,0
+passport M2468135 driving license KA05 20210054321 for identity verification.,MEDIUM,2,2,0,0,0,1,0
+Voter ID ABC1234567 card 5555555555554444 phone +91 9988776655 OTP 582941 please share it.,CRITICAL,4,4,1,1,0,1,0
+passport A1234567 please share it.,LOW,1,1,0,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 Voter ID QWE2468135 IP address 10.0.0.42 URGENT: provide it now.,MEDIUM,3,3,0,0,0,2,1
+email student@example.com for reference.,LOW,1,1,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: IP address 172.16.0.8 to complete account verification.,MEDIUM,1,1,0,0,0,2,1
+passport K7654321 Voter ID ABC1234567 for registration.,MEDIUM,2,2,0,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: IFSC ICIC0001234 Voter ID XYZ7654321 GSTIN 27FGHIJ5678K2Z6 for reference.,MEDIUM,3,3,0,0,0,1,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: account 456789012345 IFSC SBIN0001234 for identity verification.,HIGH,3,3,0,1,1,2,1
+phone +91 9123456789 OTP 482916 for reference.,MEDIUM,2,2,1,0,0,0,0
+IP address 172.16.0.8 account 987654321098 for reference.,HIGH,3,3,0,1,1,0,0
+URGENT: phone +91 9988776655 UPI ID mahendra@oksbi OTP 839201 password SecurePwd456 for reference.,CRITICAL,4,4,2,0,0,1,1
+Voter ID XYZ7654321 passport M2468135 Aadhaar 4567 8901 2345 OTP 482916 for reference.,CRITICAL,4,4,1,0,1,0,0
+PAN LMNOP9012Q Aadhaar 3456 7890 1234 UPI ID student@upi for reference.,HIGH,3,3,0,0,2,0,0
+OTP 482916 for registration.,MEDIUM,1,1,1,0,0,1,0
+PAN FGHIJ5678K UPI ID student@upi Aadhaar 4567 8901 2345 IP address 10.0.0.42 because the account is being reviewed.,HIGH,4,4,0,0,2,0,0
+OTP 839201 IFSC SBIN0001234 Aadhaar 4567 8901 2345 please share it.,CRITICAL,3,3,1,0,1,1,0
+driving license AP01 20230012345 card 5555555555554444 password DemoPass789 to complete account verification.,CRITICAL,3,3,1,1,0,1,0
+phone +91 9876543210 date of birth 15/08/2004 account 456789012345 for reference.,HIGH,4,4,0,1,1,0,0
+UPI ID demo.user@icici GSTIN 37ABCDE1234F1Z5 for reference.,MEDIUM,2,2,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+password SecurePwd456 account 987654321098 URGENT: provide it now.,CRITICAL,3,3,1,1,1,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+Voter ID ABC1234567 OTP 582941 account 987654321098 to complete account verification.,CRITICAL,4,4,1,1,1,1,0
+OTP 482916 Voter ID QWE2468135 IFSC HDFC0001234 for reference.,MEDIUM,3,3,1,0,0,0,0
+passport A1234567 to process the refund.,LOW,1,1,0,0,0,1,0
+GSTIN 27FGHIJ5678K2Z6 please share it.,LOW,1,1,0,0,0,1,0
+account 987654321098 date of birth 15/08/2004 phone +91 9876543210 password MySecretPass123 please upload it.,CRITICAL,5,5,1,1,1,1,0
+URGENT: date of birth 15/08/2004 phone +91 9876543210 Aadhaar 4567 8901 2345 to process the refund.,HIGH,3,3,0,0,1,2,1
+password MySecretPass123 driving license KA05 20210054321 phone +91 9876543210 to complete account verification.,HIGH,3,3,1,0,0,1,0
+account 456789012345 for reference.,MEDIUM,2,2,0,1,1,0,0
+account 456789012345 password DemoPass789 Voter ID ABC1234567 for registration.,CRITICAL,4,4,1,1,1,1,0
+Aadhaar 3456 7890 1234 IP address 10.0.0.42 email student@example.com send it immediately.,HIGH,3,3,0,0,1,2,1
+passport A1234567 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: password MySecretPass123 OTP 582941 email user@example.com driving license AP01 20230012345 please share it.,CRITICAL,4,4,2,0,0,2,1
+account 987654321098 password DemoPass789 PAN FGHIJ5678K for the project record.,CRITICAL,4,4,1,1,2,0,0
+Aadhaar 3456 7890 1234 date of birth 15/08/2004 UPI ID student@upi to process the refund.,MEDIUM,3,3,0,0,1,1,0
+URGENT: account 456789012345 for reference.,HIGH,2,2,0,1,1,1,1
+Voter ID XYZ7654321 passport A1234567 OTP 482916 card 4111111111111111 please upload it.,CRITICAL,4,4,1,1,0,1,0
+password DemoPass789 for the project record.,MEDIUM,1,1,1,0,0,0,0
+account 123456789012 OTP 839201 passport A1234567 for registration.,CRITICAL,4,4,1,1,1,1,0
+URGENT: Voter ID QWE2468135 account 987654321098 passport M2468135 OTP 482916 for the project record.,CRITICAL,5,5,1,1,1,1,1
+password SecurePwd456 PAN ABCDE1234F account 987654321098 send it immediately.,CRITICAL,4,4,1,1,2,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 PAN LMNOP9012Q for reference.,MEDIUM,2,2,0,0,1,0,0
+URGENT: driving license KA05 20210054321 card 5555555555554444 account 987654321098 please share it.,CRITICAL,4,4,0,2,1,2,1
+date of birth 15/08/2004 OTP 839201 password MySecretPass123 driving license KA05 20210054321 please share it.,CRITICAL,4,4,2,0,0,1,0
+date of birth 15/08/2004 Voter ID XYZ7654321 send it immediately.,MEDIUM,2,2,0,0,0,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Aadhaar 4567 8901 2345 please upload it.,MEDIUM,1,1,0,0,1,1,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+URGENT: phone +91 9123456789 send it immediately.,MEDIUM,1,1,0,0,0,3,1
+email user@example.com to complete account verification.,LOW,1,1,0,0,0,1,0
+OTP 839201 for reference.,MEDIUM,1,1,1,0,0,0,0
+URGENT: GSTIN 29LMNOP9012Q3Z7 please share it.,MEDIUM,1,1,0,0,0,2,1
+URGENT: IFSC SBIN0001234 PAN LMNOP9012Q password DemoPass789 for reference.,CRITICAL,3,3,1,0,1,1,1
+driving license KA05 20210054321 to complete account verification.,LOW,1,1,0,0,0,1,0
+URGENT: phone +91 9988776655 password MySecretPass123 please share it.,HIGH,2,2,1,0,0,2,1
+Voter ID XYZ7654321 because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+UPI ID demo.user@icici password SecurePwd456 card 4111111111111111 to complete account verification.,CRITICAL,3,3,1,1,0,1,0
+account 987654321098 phone +91 9876543210 for identity verification.,HIGH,3,3,0,1,1,1,0
+GSTIN 27FGHIJ5678K2Z6 for reference.,LOW,1,1,0,0,0,0,0
+IFSC ICIC0001234 PAN LMNOP9012Q Aadhaar 4567 8901 2345 for the project record.,HIGH,3,3,0,0,2,0,0
+password MySecretPass123 passport A1234567 date of birth 15/08/2004 card 4111111111111111 for registration.,CRITICAL,4,4,1,1,0,1,0
+date of birth 15/08/2004 password MySecretPass123 UPI ID mahendra@oksbi account 987654321098 for identity verification.,CRITICAL,5,5,1,1,1,1,0
+GSTIN 29LMNOP9012Q3Z7 IP address 192.168.1.25 account 123456789012 password SecurePwd456 because the account is being reviewed.,CRITICAL,5,5,1,1,1,0,0
+date of birth 15/08/2004 Aadhaar 2345 6789 0123 driving license AP01 20230012345 PAN LMNOP9012Q for reference.,HIGH,4,4,0,0,2,0,0
+password DemoPass789 IFSC ICIC0001234 PAN LMNOP9012Q IP address 10.0.0.42 please share it.,CRITICAL,4,4,1,0,1,1,0
+URGENT: Voter ID ABC1234567 card 5555555555554444 account 123456789012 please upload it.,CRITICAL,4,4,0,2,1,2,1
+URGENT: passport M2468135 card 5555555555554444 for reference.,MEDIUM,2,2,0,1,0,1,1
+IFSC SBIN0001234 for identity verification.,LOW,1,1,0,0,0,1,0
+card 5555555555554444 Aadhaar 3456 7890 1234 because the account is being reviewed.,MEDIUM,2,2,0,1,1,0,0
+PAN LMNOP9012Q passport A1234567 phone +91 9988776655 to complete account verification.,MEDIUM,3,3,0,0,1,1,0
+email user@example.com Aadhaar 2345 6789 0123 URGENT: provide it now.,MEDIUM,2,2,0,0,1,2,1
+card 5555555555554444 phone +91 9988776655 please share it.,MEDIUM,2,2,0,1,0,1,0
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+IP address 192.168.1.25 card 4111111111111111 PAN LMNOP9012Q for reference.,HIGH,3,3,0,1,1,0,0
+URGENT: card 4111111111111111 for identity verification.,MEDIUM,1,1,0,1,0,2,1
+URGENT: account 987654321098 password MySecretPass123 card 4111111111111111 please upload it.,CRITICAL,4,4,1,2,1,2,1
+PAN ABCDE1234F email contact@example.org card 4111111111111111 to process the refund.,HIGH,3,3,0,1,1,1,0
+PAN ABCDE1234F GSTIN 27FGHIJ5678K2Z6 passport K7654321 account 987654321098 for reference.,CRITICAL,5,5,0,1,2,0,0
+URGENT: GSTIN 29LMNOP9012Q3Z7 send it immediately.,MEDIUM,1,1,0,0,0,3,1
+account 456789012345 email user@example.com for reference.,HIGH,3,3,0,1,1,0,0
+card 5555555555554444 for reference.,MEDIUM,1,1,0,1,0,0,0
+account 123456789012 phone +91 9988776655 for the project record.,HIGH,3,3,0,1,1,0,0
+URGENT: card 4111111111111111 GSTIN 27FGHIJ5678K2Z6 IFSC SBIN0001234 OTP 582941 send it immediately.,CRITICAL,4,4,1,1,0,3,1
+URGENT: Voter ID XYZ7654321 for reference.,LOW,1,1,0,0,0,1,1
+GSTIN 27FGHIJ5678K2Z6 OTP 839201 URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+URGENT: passport K7654321 email student@example.com OTP 582941 for reference.,HIGH,3,3,1,0,0,1,1
+date of birth 15/08/2004 account 987654321098 to complete account verification.,HIGH,3,3,0,1,1,1,0
+card 5555555555554444 passport M2468135 OTP 582941 for identity verification.,CRITICAL,3,3,1,1,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: password SecurePwd456 driving license AP01 20230012345 Voter ID QWE2468135 card 4111111111111111 for reference.,CRITICAL,4,4,1,1,0,1,1
+URGENT: password DemoPass789 card 5555555555554444 email demo.user@mail.com Voter ID ABC1234567 for the project record.,CRITICAL,4,4,1,1,0,1,1
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+PAN ABCDE1234F GSTIN 27FGHIJ5678K2Z6 UPI ID student@upi IP address 192.168.1.25 for reference.,HIGH,4,4,0,0,1,0,0
+email contact@example.org for reference.,LOW,1,1,0,0,0,0,0
+PAN FGHIJ5678K Aadhaar 2345 6789 0123 password DemoPass789 for the project record.,CRITICAL,3,3,1,0,2,0,0
+password MySecretPass123 date of birth 15/08/2004 OTP 839201 for reference.,CRITICAL,3,3,2,0,0,0,0
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+email demo.user@mail.com phone +91 9988776655 IFSC SBIN0001234 to complete account verification.,HIGH,3,3,0,0,0,1,0
+GSTIN 27FGHIJ5678K2Z6 phone +91 9876543210 to complete account verification.,MEDIUM,2,2,0,0,0,1,0
+OTP 482916 Aadhaar 3456 7890 1234 driving license KA05 20210054321 for the project record.,HIGH,3,3,1,0,1,0,0
+URGENT: PAN LMNOP9012Q phone +91 9876543210 Voter ID XYZ7654321 account 123456789012 for the project record.,HIGH,5,5,0,1,2,1,1
+phone +91 9988776655 for registration.,LOW,1,1,0,0,0,1,0
+driving license AP01 20230012345 account 123456789012 for reference.,HIGH,3,3,0,1,1,0,0
+date of birth 15/08/2004 for registration.,LOW,1,1,0,0,0,1,0
+URGENT: IP address 10.0.0.42 passport K7654321 driving license AP01 20230012345 to process the refund.,MEDIUM,3,3,0,0,0,2,1
+PAN FGHIJ5678K email user@example.com for the project record.,MEDIUM,2,2,0,0,1,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Voter ID XYZ7654321 phone +91 9988776655 for reference.,MEDIUM,2,2,0,0,0,0,0
+passport A1234567 date of birth 15/08/2004 please share it.,MEDIUM,2,2,0,0,0,1,0
+email user@example.com because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+URGENT: IFSC SBIN0001234 driving license TS09 20190067890 GSTIN 29LMNOP9012Q3Z7 account 123456789012 please upload it.,CRITICAL,5,5,0,1,1,2,1
+URGENT: password SecurePwd456 Aadhaar 2345 6789 0123 date of birth 15/08/2004 URGENT: provide it now.,CRITICAL,3,3,1,0,1,2,1
+date of birth 15/08/2004 Aadhaar 3456 7890 1234 to complete account verification.,MEDIUM,2,2,0,0,1,1,0
+URGENT: phone +91 9988776655 driving license AP01 20230012345 OTP 582941 for registration.,HIGH,3,3,1,0,0,2,1
+Voter ID XYZ7654321 please upload it.,LOW,1,1,0,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Aadhaar 4567 8901 2345 card 5555555555554444 UPI ID student@upi Voter ID ABC1234567 please upload it.,HIGH,4,4,0,1,1,1,0
+URGENT: email demo.user@mail.com password SecurePwd456 for reference.,MEDIUM,2,2,1,0,0,1,1
+URGENT: driving license AP01 20230012345 for reference.,MEDIUM,1,1,0,0,0,1,1
+IP address 172.16.0.8 phone +91 9988776655 card 5555555555554444 PAN LMNOP9012Q please share it.,HIGH,4,4,0,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+password MySecretPass123 driving license KA05 20210054321 Aadhaar 2345 6789 0123 date of birth 15/08/2004 because the account is being reviewed.,CRITICAL,4,4,1,0,1,0,0
+card 5555555555554444 please upload it.,MEDIUM,1,1,0,1,0,1,0
+PAN LMNOP9012Q for reference.,MEDIUM,1,1,0,0,1,0,0
+card 4111111111111111 date of birth 15/08/2004 for registration.,MEDIUM,2,2,0,1,0,1,0
+UPI ID student@upi to process the refund.,LOW,1,1,0,0,0,1,0
+URGENT: The application server is available for testing.,LOW,0,0,0,0,0,1,1
+UPI ID student@upi send it immediately.,MEDIUM,1,1,0,0,0,2,1
+UPI ID demo.user@icici OTP 582941 to process the refund.,MEDIUM,2,2,1,0,0,1,0
+account 456789012345 IFSC ICIC0001234 send it immediately.,CRITICAL,3,3,0,1,1,2,1
+phone +91 9988776655 for identity verification.,LOW,1,1,0,0,0,1,0
+URGENT: OTP 482916 password DemoPass789 because the account is being reviewed.,CRITICAL,2,2,2,0,0,1,1
+URGENT: date of birth 15/08/2004 Aadhaar 4567 8901 2345 account 987654321098 GSTIN 29LMNOP9012Q3Z7 for reference.,CRITICAL,5,4,0,1,2,1,1
+Aadhaar 2345 6789 0123 driving license AP01 20230012345 password DemoPass789 PAN ABCDE1234F to process the refund.,CRITICAL,4,4,1,0,2,1,0
+GSTIN 29LMNOP9012Q3Z7 PAN LMNOP9012Q because the account is being reviewed.,MEDIUM,2,2,0,0,1,0,0
+passport K7654321 password SecurePwd456 OTP 482916 for reference.,CRITICAL,3,3,2,0,0,0,0
+phone +91 9123456789 password MySecretPass123 card 4111111111111111 GSTIN 37ABCDE1234F1Z5 for the project record.,CRITICAL,4,4,1,1,0,0,0
+PAN ABCDE1234F passport A1234567 IP address 172.16.0.8 OTP 839201 for identity verification.,CRITICAL,4,4,1,0,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 OTP 582941 URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+passport A1234567 for registration.,LOW,1,1,0,0,0,1,0
+URGENT: password DemoPass789 PAN ABCDE1234F to process the refund.,CRITICAL,2,2,1,0,1,2,1
+password MySecretPass123 phone +91 9988776655 URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+password DemoPass789 account 456789012345 because the account is being reviewed.,CRITICAL,3,3,1,1,1,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+passport M2468135 for registration.,LOW,1,1,0,0,0,1,0
+URGENT: Voter ID QWE2468135 please share it.,MEDIUM,1,1,0,0,0,2,1
+URGENT: password SecurePwd456 IP address 172.16.0.8 account 987654321098 to complete account verification.,CRITICAL,4,4,1,1,1,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+driving license TS09 20190067890 OTP 582941 send it immediately.,HIGH,2,2,1,0,0,2,1
+account 456789012345 date of birth 15/08/2004 send it immediately.,HIGH,3,3,0,1,1,2,1
+IFSC ICIC0001234 password MySecretPass123 IP address 192.168.1.25 account 123456789012 for identity verification.,CRITICAL,5,5,1,1,1,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+IFSC HDFC0001234 card 5555555555554444 send it immediately.,MEDIUM,2,2,0,1,0,2,1
+account 456789012345 phone +91 9988776655 OTP 728391 for identity verification.,CRITICAL,4,4,1,1,1,1,0
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+card 5555555555554444 passport M2468135 Aadhaar 3456 7890 1234 for reference.,HIGH,3,3,0,1,1,0,0
+password DemoPass789 card 5555555555554444 for reference.,HIGH,2,2,1,1,0,0,0
+UPI ID student@upi please upload it.,LOW,1,1,0,0,0,1,0
+account 987654321098 OTP 839201 for reference.,CRITICAL,3,3,1,1,1,0,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+OTP 839201 for reference.,MEDIUM,1,1,1,0,0,0,0
+OTP 839201 PAN FGHIJ5678K card 5555555555554444 please share it.,CRITICAL,3,3,1,1,1,1,0
+OTP 839201 card 5555555555554444 URGENT: provide it now.,CRITICAL,2,2,1,1,0,2,1
+URGENT: OTP 728391 Aadhaar 4567 8901 2345 Voter ID ABC1234567 please upload it.,CRITICAL,3,3,1,0,1,2,1
+passport M2468135 PAN LMNOP9012Q for identity verification.,MEDIUM,2,2,0,0,1,1,0
+date of birth 15/08/2004 card 4111111111111111 Aadhaar 3456 7890 1234 IFSC ICIC0001234 for reference.,HIGH,4,4,0,1,1,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 password MySecretPass123 GSTIN 37ABCDE1234F1Z5 because the account is being reviewed.,MEDIUM,3,3,1,0,0,0,0
+GSTIN 37ABCDE1234F1Z5 OTP 728391 for identity verification.,HIGH,2,2,1,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+PAN ABCDE1234F GSTIN 27FGHIJ5678K2Z6 card 4111111111111111 for the project record.,HIGH,3,3,0,1,1,0,0
+card 5555555555554444 IFSC SBIN0001234 to process the refund.,MEDIUM,2,2,0,1,0,1,0
+PAN LMNOP9012Q for registration.,MEDIUM,1,1,0,0,1,1,0
+URGENT: card 4111111111111111 account 987654321098 IP address 10.0.0.42 UPI ID mahendra@oksbi for identity verification.,CRITICAL,5,5,0,2,1,2,1
+email demo.user@mail.com OTP 482916 please share it.,MEDIUM,2,2,1,0,0,1,0
+passport M2468135 GSTIN 27FGHIJ5678K2Z6 IP address 172.16.0.8 Voter ID XYZ7654321 for reference.,MEDIUM,4,4,0,0,0,0,0
+URGENT: PAN LMNOP9012Q OTP 582941 to complete account verification.,CRITICAL,2,2,1,0,1,2,1
+date of birth 15/08/2004 email user@example.com for registration.,MEDIUM,2,2,0,0,0,1,0
+password MySecretPass123 IP address 172.16.0.8 account 456789012345 please share it.,CRITICAL,4,4,1,1,1,1,0
+URGENT: OTP 839201 phone +91 9123456789 Aadhaar 3456 7890 1234 for identity verification.,CRITICAL,3,3,1,0,1,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+driving license AP01 20230012345 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+UPI ID demo.user@icici because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+URGENT: Aadhaar 3456 7890 1234 card 4111111111111111 for reference.,HIGH,2,2,0,1,1,1,1
+PAN LMNOP9012Q driving license TS09 20190067890 date of birth 15/08/2004 IFSC ICIC0001234 for the project record.,HIGH,4,4,0,0,1,0,0
+card 4111111111111111 Voter ID ABC1234567 IP address 172.16.0.8 for reference.,HIGH,3,3,0,1,0,0,0
+driving license TS09 20190067890 IP address 10.0.0.42 account 456789012345 GSTIN 27FGHIJ5678K2Z6 to process the refund.,HIGH,5,5,0,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+OTP 839201 password MySecretPass123 IP address 192.168.1.25 Voter ID QWE2468135 to complete account verification.,CRITICAL,4,4,2,0,0,1,0
+Voter ID XYZ7654321 password SecurePwd456 for reference.,MEDIUM,2,2,1,0,0,0,0
+passport K7654321 driving license KA05 20210054321 PAN LMNOP9012Q OTP 839201 for the project record.,CRITICAL,4,4,1,0,1,0,0
+URGENT: PAN LMNOP9012Q card 4111111111111111 Voter ID XYZ7654321 to process the refund.,HIGH,3,3,0,1,1,2,1
+passport A1234567 password SecurePwd456 for reference.,MEDIUM,2,2,1,0,0,0,0
+password MySecretPass123 PAN LMNOP9012Q date of birth 15/08/2004 for reference.,HIGH,3,3,1,0,1,0,0
+password SecurePwd456 date of birth 15/08/2004 send it immediately.,HIGH,2,2,1,0,0,2,1
+IP address 192.168.1.25 please upload it.,LOW,1,1,0,0,0,1,0
+phone +91 9988776655 send it immediately.,MEDIUM,1,1,0,0,0,2,1
+IP address 10.0.0.42 please share it.,LOW,1,1,0,0,0,1,0
+phone +91 9123456789 to complete account verification.,LOW,1,1,0,0,0,1,0
+driving license KA05 20210054321 IP address 10.0.0.42 card 5555555555554444 GSTIN 27FGHIJ5678K2Z6 because the account is being reviewed.,HIGH,4,4,0,1,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+account 123456789012 password DemoPass789 driving license KA05 20210054321 for registration.,CRITICAL,4,4,1,1,1,1,0
+URGENT: GSTIN 27FGHIJ5678K2Z6 IP address 172.16.0.8 for reference.,MEDIUM,2,2,0,0,0,1,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+phone +91 9123456789 IP address 172.16.0.8 for identity verification.,MEDIUM,2,2,0,0,0,1,0
+email contact@example.org driving license KA05 20210054321 for reference.,MEDIUM,2,2,0,0,0,0,0
+card 4111111111111111 OTP 482916 for reference.,HIGH,2,2,1,1,0,0,0
+passport A1234567 email demo.user@mail.com date of birth 15/08/2004 please upload it.,MEDIUM,3,3,0,0,0,1,0
+passport K7654321 Aadhaar 2345 6789 0123 password DemoPass789 IFSC ICIC0001234 for identity verification.,CRITICAL,4,4,1,0,1,1,0
+card 5555555555554444 for reference.,MEDIUM,1,1,0,1,0,0,0
+card 4111111111111111 Aadhaar 4567 8901 2345 GSTIN 27FGHIJ5678K2Z6 please upload it.,HIGH,3,3,0,1,1,1,0
+UPI ID mahendra@oksbi card 5555555555554444 please share it.,MEDIUM,2,2,0,1,0,1,0
+OTP 582941 UPI ID demo.user@icici URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+driving license TS09 20190067890 password DemoPass789 URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+IFSC SBIN0001234 email user@example.com account 987654321098 to complete account verification.,HIGH,4,4,0,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+OTP 582941 account 123456789012 card 5555555555554444 URGENT: provide it now.,CRITICAL,4,4,1,2,1,2,1
+Voter ID QWE2468135 Aadhaar 3456 7890 1234 to process the refund.,MEDIUM,2,2,0,0,1,1,0
+GSTIN 37ABCDE1234F1Z5 OTP 482916 account 456789012345 for reference.,CRITICAL,4,4,1,1,1,0,0
+IP address 172.16.0.8 Aadhaar 2345 6789 0123 please upload it.,MEDIUM,2,2,0,0,1,1,0
+card 5555555555554444 OTP 839201 URGENT: provide it now.,CRITICAL,2,2,1,1,0,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+driving license AP01 20230012345 date of birth 15/08/2004 OTP 728391 Aadhaar 2345 6789 0123 URGENT: provide it now.,CRITICAL,4,4,1,0,1,2,1
+OTP 839201 for the project record.,MEDIUM,1,1,1,0,0,0,0
+OTP 582941 PAN ABCDE1234F IP address 192.168.1.25 for identity verification.,CRITICAL,3,3,1,0,1,1,0
+URGENT: Aadhaar 3456 7890 1234 passport M2468135 OTP 839201 send it immediately.,CRITICAL,3,3,1,0,1,3,1
+URGENT: password DemoPass789 OTP 482916 for reference.,CRITICAL,2,2,2,0,0,1,1
+OTP 582941 account 987654321098 GSTIN 27FGHIJ5678K2Z6 card 5555555555554444 for the project record.,CRITICAL,5,5,1,2,1,0,0
+URGENT: password MySecretPass123 IP address 10.0.0.42 OTP 839201 please upload it.,CRITICAL,3,3,2,0,0,2,1
+OTP 582941 PAN FGHIJ5678K Aadhaar 3456 7890 1234 for identity verification.,CRITICAL,3,3,1,0,2,1,0
+account 987654321098 date of birth 15/08/2004 please upload it.,HIGH,3,3,0,1,1,1,0
+URGENT: Voter ID ABC1234567 phone +91 9123456789 Aadhaar 4567 8901 2345 card 5555555555554444 for registration.,HIGH,4,4,0,1,1,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+email contact@example.org card 5555555555554444 for reference.,MEDIUM,2,2,0,1,0,0,0
+GSTIN 29LMNOP9012Q3Z7 date of birth 15/08/2004 Voter ID QWE2468135 OTP 839201 for the project record.,HIGH,4,4,1,0,0,0,0
+account 456789012345 phone +91 9876543210 GSTIN 29LMNOP9012Q3Z7 send it immediately.,HIGH,4,4,0,1,1,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Voter ID QWE2468135 passport M2468135 for reference.,MEDIUM,2,2,0,0,0,0,0
+URGENT: IFSC ICIC0001234 card 5555555555554444 phone +91 9876543210 for reference.,CRITICAL,3,3,0,1,0,1,1
+URGENT: Voter ID ABC1234567 email demo.user@mail.com password SecurePwd456 for reference.,HIGH,3,3,1,0,0,1,1
+URGENT: account 123456789012 Voter ID QWE2468135 card 5555555555554444 for registration.,HIGH,4,4,0,2,1,2,1
+card 4111111111111111 account 123456789012 date of birth 15/08/2004 for reference.,HIGH,4,4,0,2,1,0,0
+driving license KA05 20210054321 OTP 582941 password DemoPass789 for identity verification.,CRITICAL,3,3,2,0,0,1,0
+URGENT: passport M2468135 send it immediately.,MEDIUM,1,1,0,0,0,3,1
+card 5555555555554444 account 987654321098 because the account is being reviewed.,HIGH,3,3,0,2,1,0,0
+IFSC ICIC0001234 UPI ID student@upi send it immediately.,MEDIUM,2,2,0,0,0,2,1
+URGENT: Voter ID ABC1234567 account 987654321098 to process the refund.,HIGH,3,3,0,1,1,2,1
+password DemoPass789 Aadhaar 4567 8901 2345 phone +91 9876543210 IP address 172.16.0.8 to process the refund.,CRITICAL,4,4,1,0,1,1,0
+PAN ABCDE1234F passport K7654321 UPI ID student@upi password MySecretPass123 send it immediately.,CRITICAL,4,4,1,0,1,2,1
+URGENT: Aadhaar 3456 7890 1234 URGENT: provide it now.,MEDIUM,1,1,0,0,1,2,1
+IP address 172.16.0.8 for reference.,LOW,1,1,0,0,0,0,0
+Aadhaar 3456 7890 1234 UPI ID mahendra@oksbi phone +91 9123456789 email demo.user@mail.com for the project record.,HIGH,4,4,0,0,1,0,0
+Aadhaar 2345 6789 0123 email demo.user@mail.com for reference.,MEDIUM,2,2,0,0,1,0,0
+PAN ABCDE1234F password SecurePwd456 passport A1234567 IP address 172.16.0.8 URGENT: provide it now.,CRITICAL,4,4,1,0,1,2,1
+OTP 839201 PAN FGHIJ5678K passport K7654321 to complete account verification.,CRITICAL,3,3,1,0,1,1,0
+URGENT: driving license KA05 20210054321 Voter ID QWE2468135 passport A1234567 OTP 839201 to complete account verification.,HIGH,4,4,1,0,0,2,1
+card 4111111111111111 to process the refund.,MEDIUM,1,1,0,1,0,1,0
+account 456789012345 driving license KA05 20210054321 URGENT: provide it now.,HIGH,3,3,0,1,1,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+password DemoPass789 date of birth 15/08/2004 passport A1234567 card 5555555555554444 for the project record.,CRITICAL,4,4,1,1,0,0,0
+account 123456789012 GSTIN 27FGHIJ5678K2Z6 Voter ID ABC1234567 for registration.,HIGH,4,4,0,1,1,1,0
+UPI ID mahendra@oksbi card 5555555555554444 date of birth 15/08/2004 URGENT: provide it now.,CRITICAL,3,3,0,1,0,2,1
+IFSC SBIN0001234 PAN LMNOP9012Q to process the refund.,MEDIUM,2,2,0,0,1,1,0
+card 4111111111111111 password MySecretPass123 account 456789012345 Aadhaar 4567 8901 2345 because the account is being reviewed.,CRITICAL,5,4,1,2,2,0,0
+account 456789012345 OTP 728391 email demo.user@mail.com URGENT: provide it now.,CRITICAL,4,4,1,1,1,2,1
+URGENT: phone +91 9123456789 card 4111111111111111 email student@example.com send it immediately.,HIGH,3,3,0,1,0,3,1
+PAN FGHIJ5678K Aadhaar 4567 8901 2345 for identity verification.,MEDIUM,2,2,0,0,2,1,0
+GSTIN 37ABCDE1234F1Z5 date of birth 15/08/2004 password DemoPass789 account 123456789012 to complete account verification.,CRITICAL,5,5,1,1,1,1,0
+driving license KA05 20210054321 UPI ID mahendra@oksbi IP address 192.168.1.25 to complete account verification.,MEDIUM,3,3,0,0,0,1,0
+Aadhaar 3456 7890 1234 IP address 10.0.0.42 IFSC SBIN0001234 for reference.,MEDIUM,3,3,0,0,1,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+passport K7654321 phone +91 9876543210 Voter ID XYZ7654321 for reference.,MEDIUM,3,3,0,0,0,0,0
+OTP 839201 Aadhaar 3456 7890 1234 to process the refund.,HIGH,2,2,1,0,1,1,0
+Voter ID QWE2468135 driving license TS09 20190067890 GSTIN 27FGHIJ5678K2Z6 please upload it.,MEDIUM,3,3,0,0,0,1,0
+UPI ID demo.user@icici because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+Aadhaar 3456 7890 1234 PAN LMNOP9012Q OTP 839201 please share it.,CRITICAL,3,3,1,0,2,1,0
+URGENT: card 4111111111111111 IP address 10.0.0.42 GSTIN 29LMNOP9012Q3Z7 to process the refund.,HIGH,3,3,0,1,0,2,1
+Aadhaar 3456 7890 1234 send it immediately.,MEDIUM,1,1,0,0,1,2,1
+IFSC SBIN0001234 for registration.,LOW,1,1,0,0,0,1,0
+email student@example.com GSTIN 37ABCDE1234F1Z5 to process the refund.,MEDIUM,2,2,0,0,0,1,0
+account 456789012345 date of birth 15/08/2004 PAN FGHIJ5678K send it immediately.,CRITICAL,4,4,0,1,2,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+UPI ID student@upi to complete account verification.,LOW,1,1,0,0,0,1,0
+URGENT: card 5555555555554444 IP address 10.0.0.42 send it immediately.,MEDIUM,2,2,0,1,0,3,1
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+URGENT: account 987654321098 for reference.,HIGH,2,2,0,1,1,1,1
+URGENT: email contact@example.org for the project record.,MEDIUM,1,1,0,0,0,1,1
+phone +91 9876543210 Aadhaar 4567 8901 2345 because the account is being reviewed.,MEDIUM,2,2,0,0,1,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 GSTIN 37ABCDE1234F1Z5 for reference.,MEDIUM,2,2,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+card 4111111111111111 OTP 728391 password SecurePwd456 for reference.,CRITICAL,3,3,2,1,0,0,0
+account 987654321098 card 4111111111111111 URGENT: provide it now.,HIGH,3,3,0,2,1,2,1
+email student@example.com for reference.,LOW,1,1,0,0,0,0,0
+URGENT: Aadhaar 2345 6789 0123 password DemoPass789 for reference.,HIGH,2,2,1,0,1,1,1
+URGENT: driving license AP01 20230012345 IP address 10.0.0.42 GSTIN 27FGHIJ5678K2Z6 account 123456789012 because the account is being reviewed.,CRITICAL,5,5,0,1,1,1,1
+account 456789012345 passport K7654321 password MySecretPass123 for identity verification.,CRITICAL,4,4,1,1,1,1,0
+card 4111111111111111 password MySecretPass123 IFSC ICIC0001234 for identity verification.,CRITICAL,3,3,1,1,0,1,0
+OTP 582941 UPI ID student@upi Voter ID QWE2468135 URGENT: provide it now.,HIGH,3,3,1,0,0,2,1
+account 987654321098 OTP 482916 for the project record.,CRITICAL,3,3,1,1,1,0,0
+PAN ABCDE1234F for identity verification.,MEDIUM,1,1,0,0,1,1,0
+GSTIN 29LMNOP9012Q3Z7 email user@example.com Aadhaar 4567 8901 2345 passport K7654321 for reference.,HIGH,4,4,0,0,1,0,0
+UPI ID demo.user@icici account 987654321098 to process the refund.,HIGH,3,3,0,1,1,1,0
+URGENT: GSTIN 29LMNOP9012Q3Z7 for reference.,MEDIUM,1,1,0,0,0,1,1
+GSTIN 29LMNOP9012Q3Z7 because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+date of birth 15/08/2004 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: phone +91 9876543210 account 123456789012 PAN ABCDE1234F GSTIN 27FGHIJ5678K2Z6 because the account is being reviewed.,CRITICAL,5,5,0,1,2,1,1
+password MySecretPass123 driving license AP01 20230012345 card 5555555555554444 please share it.,CRITICAL,3,3,1,1,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+driving license TS09 20190067890 IP address 10.0.0.42 for reference.,MEDIUM,2,2,0,0,0,0,0
+password DemoPass789 GSTIN 27FGHIJ5678K2Z6 passport K7654321 to complete account verification.,HIGH,3,3,1,0,0,1,0
+URGENT: GSTIN 37ABCDE1234F1Z5 password DemoPass789 card 5555555555554444 OTP 582941 for registration.,CRITICAL,4,4,2,1,0,2,1
+Aadhaar 3456 7890 1234 IFSC ICIC0001234 account 987654321098 for reference.,HIGH,4,3,0,1,2,0,0
+card 5555555555554444 GSTIN 37ABCDE1234F1Z5 password MySecretPass123 URGENT: provide it now.,CRITICAL,3,3,1,1,0,2,1
+card 4111111111111111 GSTIN 27FGHIJ5678K2Z6 send it immediately.,MEDIUM,2,2,0,1,0,2,1
+GSTIN 37ABCDE1234F1Z5 date of birth 15/08/2004 OTP 482916 account 123456789012 for reference.,CRITICAL,5,5,1,1,1,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+Aadhaar 3456 7890 1234 password SecurePwd456 PAN ABCDE1234F card 5555555555554444 URGENT: provide it now.,CRITICAL,4,4,1,1,2,2,1
+Voter ID ABC1234567 PAN ABCDE1234F IP address 10.0.0.42 card 5555555555554444 to complete account verification.,HIGH,4,4,0,1,1,1,0
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+URGENT: driving license KA05 20210054321 for reference.,MEDIUM,1,1,0,0,0,1,1
+URGENT: OTP 839201 phone +91 9123456789 PAN LMNOP9012Q to complete account verification.,CRITICAL,3,3,1,0,1,2,1
+OTP 482916 Voter ID XYZ7654321 phone +91 9988776655 driving license TS09 20190067890 to process the refund.,CRITICAL,4,4,1,0,0,1,0
+URGENT: card 4111111111111111 for registration.,MEDIUM,1,1,0,1,0,2,1
+password MySecretPass123 date of birth 15/08/2004 for reference.,MEDIUM,2,2,1,0,0,0,0
+URGENT: phone +91 9123456789 password SecurePwd456 Voter ID XYZ7654321 for reference.,HIGH,3,3,1,0,0,1,1
+account 123456789012 card 5555555555554444 for reference.,HIGH,3,3,0,2,1,0,0
+phone +91 9123456789 UPI ID demo.user@icici account 123456789012 password MySecretPass123 please upload it.,CRITICAL,5,5,1,1,1,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+GSTIN 27FGHIJ5678K2Z6 for the project record.,LOW,1,1,0,0,0,0,0
+IFSC SBIN0001234 driving license TS09 20190067890 date of birth 15/08/2004 Aadhaar 3456 7890 1234 to complete account verification.,HIGH,4,4,0,0,1,1,0
+Voter ID ABC1234567 for registration.,LOW,1,1,0,0,0,1,0
+GSTIN 27FGHIJ5678K2Z6 phone +91 9123456789 Voter ID XYZ7654321 for the project record.,MEDIUM,3,3,0,0,0,0,0
+phone +91 9988776655 driving license KA05 20210054321 OTP 728391 email contact@example.org to process the refund.,HIGH,4,4,1,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+card 4111111111111111 password SecurePwd456 OTP 482916 IFSC SBIN0001234 because the account is being reviewed.,CRITICAL,4,4,2,1,0,0,0
+account 987654321098 please upload it.,MEDIUM,2,2,0,1,1,1,0
+email contact@example.org card 5555555555554444 passport A1234567 to process the refund.,MEDIUM,3,3,0,1,0,1,0
+GSTIN 37ABCDE1234F1Z5 IP address 10.0.0.42 account 987654321098 to process the refund.,HIGH,4,4,0,1,1,1,0
+password MySecretPass123 OTP 839201 because the account is being reviewed.,HIGH,2,2,2,0,0,0,0
+GSTIN 37ABCDE1234F1Z5 to complete account verification.,LOW,1,1,0,0,0,1,0
+PAN LMNOP9012Q driving license KA05 20210054321 IP address 192.168.1.25 for reference.,MEDIUM,3,3,0,0,1,0,0
+URGENT: OTP 582941 password SecurePwd456 for reference.,CRITICAL,2,2,2,0,0,1,1
+URGENT: driving license AP01 20230012345 UPI ID student@upi because the account is being reviewed.,MEDIUM,2,2,0,0,0,1,1
+Voter ID QWE2468135 for identity verification.,LOW,1,1,0,0,0,1,0
+password MySecretPass123 phone +91 9988776655 for reference.,MEDIUM,2,2,1,0,0,0,0
+IP address 192.168.1.25 account 987654321098 GSTIN 27FGHIJ5678K2Z6 for the project record.,HIGH,4,4,0,1,1,0,0
+URGENT: UPI ID mahendra@oksbi account 987654321098 driving license TS09 20190067890 card 5555555555554444 please upload it.,CRITICAL,5,5,0,2,1,2,1
+account 123456789012 Aadhaar 2345 6789 0123 driving license AP01 20230012345 to complete account verification.,HIGH,4,3,0,1,2,1,0
+password MySecretPass123 for reference.,MEDIUM,1,1,1,0,0,0,0
+Aadhaar 2345 6789 0123 UPI ID demo.user@icici password SecurePwd456 for registration.,CRITICAL,3,3,1,0,1,1,0
+account 987654321098 OTP 728391 card 4111111111111111 please upload it.,CRITICAL,4,4,1,2,1,1,0
+PAN ABCDE1234F email contact@example.org date of birth 15/08/2004 IFSC HDFC0001234 for reference.,HIGH,4,4,0,0,1,0,0
+URGENT: email contact@example.org IFSC SBIN0001234 date of birth 15/08/2004 password SecurePwd456 for registration.,HIGH,4,4,1,0,0,2,1
+account 987654321098 passport K7654321 PAN LMNOP9012Q to complete account verification.,HIGH,4,4,0,1,2,1,0
+account 456789012345 driving license KA05 20210054321 password MySecretPass123 OTP 482916 URGENT: provide it now.,CRITICAL,5,5,2,1,1,2,1
+PAN LMNOP9012Q card 4111111111111111 driving license AP01 20230012345 URGENT: provide it now.,HIGH,3,3,0,1,1,2,1
+URGENT: IP address 10.0.0.42 account 123456789012 passport M2468135 driving license TS09 20190067890 URGENT: provide it now.,CRITICAL,5,5,0,1,1,2,1
+PAN FGHIJ5678K card 5555555555554444 phone +91 9123456789 URGENT: provide it now.,HIGH,3,3,0,1,1,2,1
+URGENT: GSTIN 37ABCDE1234F1Z5 Aadhaar 3456 7890 1234 OTP 582941 please share it.,CRITICAL,3,3,1,0,1,2,1
+UPI ID mahendra@oksbi for identity verification.,LOW,1,1,0,0,0,1,0
+password MySecretPass123 date of birth 15/08/2004 UPI ID student@upi IP address 192.168.1.25 please share it.,HIGH,4,4,1,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+URGENT: date of birth 15/08/2004 IP address 10.0.0.42 URGENT: provide it now.,MEDIUM,2,2,0,0,0,2,1
+phone +91 9123456789 account 123456789012 because the account is being reviewed.,HIGH,3,3,0,1,1,0,0
+email student@example.com OTP 839201 for the project record.,MEDIUM,2,2,1,0,0,0,0
+account 123456789012 send it immediately.,HIGH,2,2,0,1,1,2,1
+URGENT: passport A1234567 send it immediately.,MEDIUM,1,1,0,0,0,3,1
+UPI ID demo.user@icici for reference.,LOW,1,1,0,0,0,0,0
+URGENT: Aadhaar 3456 7890 1234 email demo.user@mail.com passport M2468135 UPI ID mahendra@oksbi to complete account verification.,HIGH,4,4,0,0,1,2,1
+phone +91 9123456789 IFSC SBIN0001234 because the account is being reviewed.,MEDIUM,2,2,0,0,0,0,0
+URGENT: passport A1234567 card 4111111111111111 Voter ID QWE2468135 for reference.,HIGH,3,3,0,1,0,1,1
+date of birth 15/08/2004 account 456789012345 UPI ID student@upi send it immediately.,HIGH,4,4,0,1,1,2,1
+URGENT: card 4111111111111111 to complete account verification.,MEDIUM,1,1,0,1,0,2,1
+PAN LMNOP9012Q for the project record.,MEDIUM,1,1,0,0,1,0,0
+IFSC HDFC0001234 phone +91 9123456789 please share it.,LOW,2,2,0,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+URGENT: OTP 839201 email student@example.com account 987654321098 for reference.,CRITICAL,4,4,1,1,1,1,1
+PAN ABCDE1234F card 5555555555554444 to process the refund.,MEDIUM,2,2,0,1,1,1,0
+driving license KA05 20210054321 to process the refund.,LOW,1,1,0,0,0,1,0
+URGENT: account 456789012345 passport M2468135 card 5555555555554444 driving license KA05 20210054321 for the project record.,CRITICAL,5,5,0,2,1,1,1
+PAN LMNOP9012Q GSTIN 29LMNOP9012Q3Z7 password MySecretPass123 Voter ID QWE2468135 for reference.,CRITICAL,4,4,1,0,1,0,0
+Aadhaar 3456 7890 1234 OTP 728391 URGENT: provide it now.,CRITICAL,2,2,1,0,1,2,1
+driving license AP01 20230012345 IFSC HDFC0001234 PAN ABCDE1234F date of birth 15/08/2004 URGENT: provide it now.,HIGH,4,4,0,0,1,2,1
+URGENT: email demo.user@mail.com driving license AP01 20230012345 to process the refund.,MEDIUM,2,2,0,0,0,2,1
+URGENT: email contact@example.org account 456789012345 for reference.,HIGH,3,3,0,1,1,1,1
+account 456789012345 date of birth 15/08/2004 to process the refund.,HIGH,3,3,0,1,1,1,0
+password DemoPass789 card 5555555555554444 for reference.,HIGH,2,2,1,1,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: Aadhaar 2345 6789 0123 for identity verification.,MEDIUM,1,1,0,0,1,2,1
+date of birth 15/08/2004 PAN FGHIJ5678K for reference.,MEDIUM,2,2,0,0,1,0,0
+UPI ID student@upi for identity verification.,LOW,1,1,0,0,0,1,0
+password SecurePwd456 OTP 728391 to complete account verification.,CRITICAL,2,2,2,0,0,1,0
+UPI ID demo.user@icici GSTIN 37ABCDE1234F1Z5 password MySecretPass123 send it immediately.,HIGH,3,3,1,0,0,2,1
+email demo.user@mail.com OTP 839201 passport M2468135 password SecurePwd456 because the account is being reviewed.,CRITICAL,4,4,2,0,0,0,0
+password DemoPass789 account 123456789012 GSTIN 29LMNOP9012Q3Z7 for the project record.,CRITICAL,4,4,1,1,1,0,0
+date of birth 15/08/2004 for reference.,LOW,1,1,0,0,0,0,0
+password DemoPass789 card 4111111111111111 to complete account verification.,HIGH,2,2,1,1,0,1,0
+password MySecretPass123 OTP 482916 phone +91 9123456789 for reference.,CRITICAL,3,3,2,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Voter ID ABC1234567 PAN FGHIJ5678K passport K7654321 OTP 582941 for reference.,CRITICAL,4,4,1,0,1,0,0
+date of birth 15/08/2004 IFSC SBIN0001234 email demo.user@mail.com PAN LMNOP9012Q for reference.,CRITICAL,4,4,0,0,1,0,0
+GSTIN 37ABCDE1234F1Z5 for registration.,LOW,1,1,0,0,0,1,0
+card 4111111111111111 date of birth 15/08/2004 driving license AP01 20230012345 for reference.,MEDIUM,3,3,0,1,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+UPI ID mahendra@oksbi password SecurePwd456 please share it.,MEDIUM,2,2,1,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+PAN FGHIJ5678K for reference.,HIGH,1,1,0,0,1,0,0
+URGENT: UPI ID mahendra@oksbi Voter ID XYZ7654321 card 5555555555554444 please share it.,HIGH,3,3,0,1,0,2,1
+PAN ABCDE1234F GSTIN 29LMNOP9012Q3Z7 UPI ID student@upi IP address 10.0.0.42 to complete account verification.,HIGH,4,4,0,0,1,1,0
+password DemoPass789 driving license KA05 20210054321 for reference.,MEDIUM,2,2,1,0,0,0,0
+URGENT: driving license AP01 20230012345 email demo.user@mail.com date of birth 15/08/2004 card 4111111111111111 please share it.,HIGH,4,4,0,1,0,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+card 4111111111111111 Voter ID ABC1234567 to complete account verification.,MEDIUM,2,2,0,1,0,1,0
+IFSC ICIC0001234 passport A1234567 password SecurePwd456 to process the refund.,HIGH,3,3,1,0,0,1,0
+password MySecretPass123 UPI ID student@upi date of birth 15/08/2004 to complete account verification.,HIGH,3,3,1,0,0,1,0
+OTP 839201 account 456789012345 please share it.,CRITICAL,3,3,1,1,1,1,0
+date of birth 15/08/2004 password MySecretPass123 for reference.,MEDIUM,2,2,1,0,0,0,0
+PAN FGHIJ5678K account 123456789012 URGENT: provide it now.,HIGH,3,3,0,1,2,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: card 4111111111111111 password DemoPass789 to process the refund.,CRITICAL,2,2,1,1,0,2,1
+email student@example.com IFSC HDFC0001234 for the project record.,MEDIUM,2,2,0,0,0,0,0
+Aadhaar 2345 6789 0123 OTP 839201 card 4111111111111111 for identity verification.,CRITICAL,3,3,1,1,1,1,0
+passport M2468135 OTP 482916 phone +91 9123456789 email student@example.com for reference.,HIGH,4,4,1,0,0,0,0
+email contact@example.org IFSC SBIN0001234 passport A1234567 OTP 482916 for registration.,HIGH,4,4,1,0,0,1,0
+URGENT: account 987654321098 to complete account verification.,HIGH,2,2,0,1,1,2,1
+phone +91 9988776655 for the project record.,LOW,1,1,0,0,0,0,0
+password SecurePwd456 phone +91 9123456789 to process the refund.,MEDIUM,2,2,1,0,0,1,0
+PAN LMNOP9012Q OTP 728391 account 987654321098 URGENT: provide it now.,CRITICAL,4,4,1,1,2,2,1
+Aadhaar 4567 8901 2345 passport A1234567 driving license AP01 20230012345 password SecurePwd456 URGENT: provide it now.,CRITICAL,4,4,1,0,1,2,1
+email demo.user@mail.com card 4111111111111111 for identity verification.,MEDIUM,2,2,0,1,0,1,0
+email user@example.com date of birth 15/08/2004 Voter ID QWE2468135 send it immediately.,MEDIUM,3,3,0,0,0,2,1
+OTP 728391 Voter ID QWE2468135 date of birth 15/08/2004 send it immediately.,HIGH,3,3,1,0,0,2,1
+phone +91 9876543210 PAN ABCDE1234F IP address 10.0.0.42 password SecurePwd456 for identity verification.,CRITICAL,4,4,1,0,1,1,0
+OTP 582941 Aadhaar 4567 8901 2345 card 4111111111111111 for identity verification.,CRITICAL,3,3,1,1,1,1,0
+card 4111111111111111 PAN ABCDE1234F send it immediately.,HIGH,2,2,0,1,1,2,1
+driving license TS09 20190067890 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: OTP 582941 for identity verification.,MEDIUM,1,1,1,0,0,2,1
+password SecurePwd456 UPI ID demo.user@icici passport M2468135 card 4111111111111111 to process the refund.,CRITICAL,4,4,1,1,0,1,0
+password MySecretPass123 for reference.,MEDIUM,1,1,1,0,0,0,0
+card 5555555555554444 OTP 482916 PAN LMNOP9012Q to process the refund.,CRITICAL,3,3,1,1,1,1,0
+passport A1234567 please share it.,LOW,1,1,0,0,0,1,0
+Aadhaar 4567 8901 2345 date of birth 15/08/2004 email demo.user@mail.com for identity verification.,MEDIUM,3,3,0,0,1,1,0
+phone +91 9988776655 GSTIN 27FGHIJ5678K2Z6 passport A1234567 for reference.,MEDIUM,3,3,0,0,0,0,0
+password SecurePwd456 account 987654321098 for registration.,CRITICAL,3,3,1,1,1,1,0
+URGENT: account 123456789012 Aadhaar 4567 8901 2345 card 5555555555554444 phone +91 9123456789 URGENT: provide it now.,CRITICAL,5,4,0,2,2,2,1
+IFSC ICIC0001234 driving license KA05 20210054321 URGENT: provide it now.,MEDIUM,2,2,0,0,0,2,1
+URGENT: password DemoPass789 account 987654321098 date of birth 15/08/2004 to process the refund.,CRITICAL,4,4,1,1,1,2,1
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+account 123456789012 IP address 192.168.1.25 for registration.,HIGH,3,3,0,1,1,1,0
+card 4111111111111111 PAN LMNOP9012Q IFSC HDFC0001234 for the project record.,HIGH,3,3,0,1,1,0,0
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+GSTIN 29LMNOP9012Q3Z7 phone +91 9123456789 for registration.,MEDIUM,2,2,0,0,0,1,0
+driving license TS09 20190067890 for registration.,LOW,1,1,0,0,0,1,0
+URGENT: date of birth 15/08/2004 for reference.,MEDIUM,1,1,0,0,0,1,1
+card 4111111111111111 OTP 582941 driving license AP01 20230012345 for reference.,CRITICAL,3,3,1,1,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 email contact@example.org IFSC SBIN0001234 Aadhaar 2345 6789 0123 for the project record.,HIGH,4,4,0,0,1,0,0
+account 987654321098 date of birth 15/08/2004 please upload it.,HIGH,3,3,0,1,1,1,0
+PAN FGHIJ5678K card 4111111111111111 to complete account verification.,MEDIUM,2,2,0,1,1,1,0
+IFSC ICIC0001234 please share it.,LOW,1,1,0,0,0,1,0
+URGENT: card 4111111111111111 email user@example.com account 987654321098 because the account is being reviewed.,CRITICAL,4,4,0,2,1,1,1
+card 4111111111111111 account 456789012345 for reference.,HIGH,3,3,0,2,1,0,0
+password MySecretPass123 account 123456789012 phone +91 9988776655 because the account is being reviewed.,CRITICAL,4,4,1,1,1,0,0
+account 123456789012 Voter ID ABC1234567 IP address 10.0.0.42 URGENT: provide it now.,HIGH,4,4,0,1,1,2,1
+password DemoPass789 IFSC HDFC0001234 date of birth 15/08/2004 GSTIN 27FGHIJ5678K2Z6 URGENT: provide it now.,HIGH,4,4,1,0,0,2,1
+card 4111111111111111 please share it.,MEDIUM,1,1,0,1,0,1,0
+driving license AP01 20230012345 phone +91 9876543210 IFSC SBIN0001234 please upload it.,MEDIUM,3,3,0,0,0,1,0
+password MySecretPass123 PAN LMNOP9012Q to complete account verification.,HIGH,2,2,1,0,1,1,0
+URGENT: password SecurePwd456 IP address 10.0.0.42 OTP 582941 for the project record.,CRITICAL,3,3,2,0,0,1,1
+UPI ID mahendra@oksbi OTP 728391 for reference.,MEDIUM,2,2,1,0,0,0,0
+password DemoPass789 card 5555555555554444 account 123456789012 for identity verification.,CRITICAL,4,4,1,2,1,1,0
+Aadhaar 4567 8901 2345 for reference.,MEDIUM,1,1,0,0,1,0,0
+URGENT: card 4111111111111111 passport A1234567 phone +91 9988776655 URGENT: provide it now.,HIGH,3,3,0,1,0,2,1
+PAN LMNOP9012Q card 4111111111111111 Aadhaar 4567 8901 2345 for reference.,HIGH,3,3,0,1,2,0,0
+card 4111111111111111 please upload it.,MEDIUM,1,1,0,1,0,1,0
+password DemoPass789 PAN LMNOP9012Q passport A1234567 Aadhaar 2345 6789 0123 to process the refund.,CRITICAL,4,4,1,0,2,1,0
+GSTIN 27FGHIJ5678K2Z6 Voter ID XYZ7654321 account 123456789012 URGENT: provide it now.,HIGH,4,4,0,1,1,2,1
+password DemoPass789 for reference.,MEDIUM,1,1,1,0,0,0,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+driving license TS09 20190067890 because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+password SecurePwd456 UPI ID demo.user@icici URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+card 4111111111111111 account 987654321098 PAN FGHIJ5678K to process the refund.,CRITICAL,4,4,0,2,2,1,0
+URGENT: IFSC SBIN0001234 account 123456789012 password DemoPass789 for reference.,CRITICAL,4,4,1,1,1,1,1
+passport M2468135 account 987654321098 date of birth 15/08/2004 for registration.,HIGH,4,4,0,1,1,1,0
+account 987654321098 phone +91 9123456789 please upload it.,CRITICAL,3,3,0,1,1,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+OTP 839201 email contact@example.org send it immediately.,HIGH,2,2,1,0,0,2,1
+IP address 192.168.1.25 OTP 482916 because the account is being reviewed.,MEDIUM,2,2,1,0,0,0,0
+driving license KA05 20210054321 date of birth 15/08/2004 phone +91 9988776655 for registration.,MEDIUM,3,3,0,0,0,1,0
+account 987654321098 date of birth 15/08/2004 IFSC ICIC0001234 because the account is being reviewed.,HIGH,4,4,0,1,1,0,0
+UPI ID mahendra@oksbi driving license TS09 20190067890 please share it.,MEDIUM,2,2,0,0,0,1,0
+passport M2468135 email student@example.com driving license AP01 20230012345 because the account is being reviewed.,MEDIUM,3,3,0,0,0,0,0
+IP address 172.16.0.8 because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+URGENT: password DemoPass789 Aadhaar 4567 8901 2345 IFSC HDFC0001234 to process the refund.,CRITICAL,3,3,1,0,1,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+card 4111111111111111 OTP 582941 UPI ID student@upi URGENT: provide it now.,CRITICAL,3,3,1,1,0,2,1
+Voter ID QWE2468135 card 5555555555554444 password DemoPass789 email contact@example.org please share it.,CRITICAL,4,4,1,1,0,1,0
+date of birth 15/08/2004 account 987654321098 to process the refund.,HIGH,3,3,0,1,1,1,0
+OTP 839201 Aadhaar 2345 6789 0123 for identity verification.,HIGH,2,2,1,0,1,1,0
+passport K7654321 OTP 839201 for the project record.,MEDIUM,2,2,1,0,0,0,0
+PAN FGHIJ5678K email contact@example.org for reference.,MEDIUM,2,2,0,0,1,0,0
+URGENT: account 456789012345 passport A1234567 PAN ABCDE1234F send it immediately.,CRITICAL,4,4,0,1,2,3,1
+password DemoPass789 OTP 582941 email contact@example.org account 123456789012 for reference.,CRITICAL,5,5,2,1,1,0,0
+URGENT: passport M2468135 OTP 482916 please upload it.,HIGH,2,2,1,0,0,2,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+URGENT: card 5555555555554444 driving license TS09 20190067890 PAN LMNOP9012Q because the account is being reviewed.,HIGH,3,3,0,1,1,1,1
+OTP 728391 UPI ID student@upi URGENT: provide it now.,CRITICAL,2,2,1,0,0,2,1
+Aadhaar 4567 8901 2345 password MySecretPass123 IFSC HDFC0001234 to complete account verification.,CRITICAL,3,3,1,0,1,1,0
+card 5555555555554444 account 123456789012 Voter ID ABC1234567 GSTIN 27FGHIJ5678K2Z6 for reference.,CRITICAL,5,5,0,2,1,0,0
+URGENT: OTP 482916 passport M2468135 Voter ID ABC1234567 PAN FGHIJ5678K to process the refund.,CRITICAL,4,4,1,0,1,2,1
+driving license AP01 20230012345 IP address 10.0.0.42 account 987654321098 please upload it.,HIGH,4,4,0,1,1,1,0
+PAN FGHIJ5678K phone +91 9988776655 OTP 839201 to complete account verification.,CRITICAL,3,3,1,0,1,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 driving license KA05 20210054321 for reference.,MEDIUM,2,2,0,0,0,0,0
+IP address 192.168.1.25 Voter ID XYZ7654321 send it immediately.,MEDIUM,2,2,0,0,0,2,1
+passport K7654321 IP address 172.16.0.8 please upload it.,MEDIUM,2,2,0,0,0,1,0
+account 123456789012 URGENT: provide it now.,HIGH,2,2,0,1,1,2,1
+phone +91 9876543210 driving license TS09 20190067890 OTP 482916 password MySecretPass123 to process the refund.,HIGH,4,4,2,0,0,1,0
+URGENT: passport M2468135 driving license AP01 20230012345 PAN FGHIJ5678K account 123456789012 for the project record.,CRITICAL,5,5,0,1,2,1,1
+UPI ID mahendra@oksbi password DemoPass789 IFSC SBIN0001234 for identity verification.,HIGH,3,3,1,0,0,1,0
+URGENT: IFSC ICIC0001234 to process the refund.,HIGH,1,1,0,0,0,2,1
+IP address 10.0.0.42 date of birth 15/08/2004 for registration.,MEDIUM,2,2,0,0,0,1,0
+password SecurePwd456 OTP 728391 IFSC SBIN0001234 GSTIN 37ABCDE1234F1Z5 for reference.,CRITICAL,4,4,2,0,0,0,0
+URGENT: The application server is available for testing.,LOW,0,0,0,0,0,1,1
+card 4111111111111111 please share it.,MEDIUM,1,1,0,1,0,1,0
+URGENT: phone +91 9988776655 please share it.,MEDIUM,1,1,0,0,0,2,1
+date of birth 15/08/2004 for reference.,LOW,1,1,0,0,0,0,0
+date of birth 15/08/2004 Voter ID XYZ7654321 account 987654321098 for reference.,HIGH,4,4,0,1,1,0,0
+phone +91 9876543210 account 987654321098 for the project record.,HIGH,3,3,0,1,1,0,0
+OTP 839201 phone +91 9123456789 Aadhaar 4567 8901 2345 please share it.,CRITICAL,3,3,1,0,1,1,0
+PAN LMNOP9012Q for reference.,MEDIUM,1,1,0,0,1,0,0
+OTP 582941 UPI ID student@upi card 4111111111111111 account 456789012345 URGENT: provide it now.,CRITICAL,5,5,1,2,1,2,1
+IFSC ICIC0001234 please upload it.,LOW,1,1,0,0,0,1,0
+IP address 10.0.0.42 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: card 4111111111111111 OTP 728391 GSTIN 29LMNOP9012Q3Z7 for registration.,CRITICAL,3,3,1,1,0,2,1
+Voter ID XYZ7654321 password DemoPass789 URGENT: provide it now.,HIGH,2,2,1,0,0,2,1
+passport K7654321 phone +91 9123456789 OTP 582941 please upload it.,HIGH,3,3,1,0,0,1,0
+OTP 582941 UPI ID mahendra@oksbi Voter ID QWE2468135 driving license TS09 20190067890 please upload it.,HIGH,4,4,1,0,0,1,0
+PAN FGHIJ5678K send it immediately.,MEDIUM,1,1,0,0,1,2,1
+PAN FGHIJ5678K IP address 192.168.1.25 OTP 728391 for identity verification.,CRITICAL,3,3,1,0,1,1,0
+passport K7654321 please upload it.,LOW,1,1,0,0,0,1,0
+account 456789012345 OTP 482916 for the project record.,CRITICAL,3,3,1,1,1,0,0
+password SecurePwd456 OTP 728391 Voter ID QWE2468135 for reference.,CRITICAL,3,3,2,0,0,0,0
+date of birth 15/08/2004 IP address 192.168.1.25 UPI ID demo.user@icici please upload it.,MEDIUM,3,3,0,0,0,1,0
+account 456789012345 card 5555555555554444 email student@example.com IFSC HDFC0001234 to complete account verification.,CRITICAL,5,5,0,2,1,1,0
+passport M2468135 account 123456789012 for the project record.,HIGH,3,3,0,1,1,0,0
+email contact@example.org for reference.,LOW,1,1,0,0,0,0,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+IFSC SBIN0001234 URGENT: provide it now.,MEDIUM,1,1,0,0,0,2,1
+UPI ID mahendra@oksbi because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+card 4111111111111111 password SecurePwd456 please upload it.,HIGH,2,2,1,1,0,1,0
+driving license AP01 20230012345 IP address 10.0.0.42 for reference.,LOW,2,2,0,0,0,0,0
+passport M2468135 to complete account verification.,LOW,1,1,0,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+passport K7654321 password MySecretPass123 IFSC HDFC0001234 UPI ID demo.user@icici please upload it.,HIGH,4,4,1,0,0,1,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+Voter ID QWE2468135 for reference.,LOW,1,1,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+phone +91 9876543210 account 456789012345 OTP 582941 please share it.,CRITICAL,4,4,1,1,1,1,0
+IFSC ICIC0001234 for reference.,LOW,1,1,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+GSTIN 29LMNOP9012Q3Z7 password DemoPass789 phone +91 9988776655 OTP 839201 please share it.,CRITICAL,4,4,2,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+card 5555555555554444 Voter ID QWE2468135 password DemoPass789 account 456789012345 to process the refund.,CRITICAL,5,5,1,2,1,1,0
+date of birth 15/08/2004 PAN FGHIJ5678K passport K7654321 driving license AP01 20230012345 URGENT: provide it now.,HIGH,4,4,0,0,1,2,1
+Aadhaar 2345 6789 0123 account 987654321098 password SecurePwd456 for reference.,CRITICAL,4,3,1,1,2,0,0
+GSTIN 29LMNOP9012Q3Z7 UPI ID student@upi account 456789012345 Aadhaar 2345 6789 0123 for registration.,HIGH,5,4,0,1,2,1,0
+Aadhaar 2345 6789 0123 date of birth 15/08/2004 passport M2468135 OTP 728391 because the account is being reviewed.,CRITICAL,4,4,1,0,1,0,0
+Voter ID QWE2468135 IFSC HDFC0001234 OTP 482916 please share it.,HIGH,3,3,1,0,0,1,0
+URGENT: Aadhaar 2345 6789 0123 send it immediately.,MEDIUM,1,1,0,0,1,3,1
+card 5555555555554444 phone +91 9876543210 Aadhaar 3456 7890 1234 for reference.,HIGH,3,3,0,1,1,0,0
+account 123456789012 IFSC SBIN0001234 please share it.,HIGH,3,3,0,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Voter ID QWE2468135 password MySecretPass123 GSTIN 37ABCDE1234F1Z5 for registration.,HIGH,3,3,1,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+password SecurePwd456 email user@example.com for registration.,MEDIUM,2,2,1,0,0,1,0
+OTP 482916 Voter ID XYZ7654321 to process the refund.,MEDIUM,2,2,1,0,0,1,0
+date of birth 15/08/2004 account 123456789012 for reference.,HIGH,3,3,0,1,1,0,0
+card 5555555555554444 email demo.user@mail.com passport A1234567 driving license KA05 20210054321 send it immediately.,HIGH,4,4,0,1,0,2,1
+PAN ABCDE1234F passport A1234567 IP address 10.0.0.42 email contact@example.org for identity verification.,HIGH,4,4,0,0,1,1,0
+password DemoPass789 Aadhaar 4567 8901 2345 account 987654321098 OTP 582941 for the project record.,CRITICAL,5,4,2,1,2,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+passport A1234567 IFSC SBIN0001234 Aadhaar 3456 7890 1234 for registration.,MEDIUM,3,3,0,0,1,1,0
+email demo.user@mail.com GSTIN 37ABCDE1234F1Z5 account 123456789012 IP address 10.0.0.42 please share it.,HIGH,5,5,0,1,1,1,0
+OTP 482916 driving license AP01 20230012345 card 4111111111111111 phone +91 9988776655 for reference.,CRITICAL,4,4,1,1,0,0,0
+card 4111111111111111 passport M2468135 password SecurePwd456 email user@example.com for identity verification.,CRITICAL,4,4,1,1,0,1,0
+Aadhaar 4567 8901 2345 account 123456789012 password SecurePwd456 send it immediately.,CRITICAL,4,3,1,1,2,2,1
+passport M2468135 IP address 192.168.1.25 for registration.,MEDIUM,2,2,0,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 for reference.,LOW,1,1,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+account 456789012345 password MySecretPass123 Voter ID ABC1234567 for the project record.,CRITICAL,4,4,1,1,1,0,0
+date of birth 15/08/2004 card 5555555555554444 password DemoPass789 IFSC SBIN0001234 to complete account verification.,CRITICAL,4,4,1,1,0,1,0
+UPI ID demo.user@icici card 4111111111111111 email user@example.com for identity verification.,MEDIUM,3,3,0,1,0,1,0
+Aadhaar 4567 8901 2345 UPI ID mahendra@oksbi card 5555555555554444 to complete account verification.,HIGH,3,3,0,1,1,1,0
+passport M2468135 email student@example.com for reference.,MEDIUM,2,2,0,0,0,0,0
+URGENT: IP address 10.0.0.42 because the account is being reviewed.,MEDIUM,1,1,0,0,0,1,1
+IP address 10.0.0.42 driving license AP01 20230012345 for reference.,MEDIUM,2,2,0,0,0,0,0
+IFSC ICIC0001234 OTP 728391 for reference.,MEDIUM,2,2,1,0,0,0,0
+PAN LMNOP9012Q for reference.,MEDIUM,1,1,0,0,1,0,0
+URGENT: email user@example.com account 123456789012 GSTIN 27FGHIJ5678K2Z6 Aadhaar 2345 6789 0123 please upload it.,CRITICAL,5,4,0,1,2,2,1
+OTP 839201 card 4111111111111111 IP address 192.168.1.25 account 456789012345 for the project record.,CRITICAL,5,5,1,2,1,0,0
+Voter ID ABC1234567 password SecurePwd456 account 456789012345 send it immediately.,CRITICAL,4,4,1,1,1,2,1
+PAN ABCDE1234F IP address 172.16.0.8 phone +91 9876543210 account 987654321098 for reference.,CRITICAL,5,5,0,1,2,0,0
+IP address 10.0.0.42 driving license TS09 20190067890 password SecurePwd456 send it immediately.,HIGH,3,3,1,0,0,2,1
+email demo.user@mail.com date of birth 15/08/2004 driving license KA05 20210054321 URGENT: provide it now.,MEDIUM,3,3,0,0,0,2,1
+date of birth 15/08/2004 because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+OTP 582941 date of birth 15/08/2004 GSTIN 37ABCDE1234F1Z5 to process the refund.,HIGH,3,3,1,0,0,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+URGENT: passport K7654321 IFSC HDFC0001234 password MySecretPass123 please upload it.,HIGH,3,3,1,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+URGENT: Voter ID ABC1234567 UPI ID mahendra@oksbi date of birth 15/08/2004 please share it.,MEDIUM,3,3,0,0,0,2,1
+Aadhaar 4567 8901 2345 OTP 728391 IFSC HDFC0001234 IP address 172.16.0.8 because the account is being reviewed.,CRITICAL,4,4,1,0,1,0,0
+password MySecretPass123 UPI ID mahendra@oksbi IP address 172.16.0.8 for reference.,MEDIUM,3,3,1,0,0,0,0
+UPI ID mahendra@oksbi password DemoPass789 date of birth 15/08/2004 send it immediately.,HIGH,3,3,1,0,0,2,1
+email contact@example.org URGENT: provide it now.,MEDIUM,1,1,0,0,0,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+account 123456789012 password SecurePwd456 UPI ID demo.user@icici for reference.,CRITICAL,4,4,1,1,1,0,0
+date of birth 15/08/2004 IFSC SBIN0001234 UPI ID student@upi for reference.,MEDIUM,3,3,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+password SecurePwd456 Aadhaar 4567 8901 2345 for reference.,HIGH,2,2,1,0,1,0,0
+account 123456789012 Voter ID XYZ7654321 Aadhaar 4567 8901 2345 to process the refund.,HIGH,4,3,0,1,2,1,0
+UPI ID student@upi for reference.,LOW,1,1,0,0,0,0,0
+URGENT: date of birth 15/08/2004 for identity verification.,MEDIUM,1,1,0,0,0,2,1
+phone +91 9876543210 driving license AP01 20230012345 password SecurePwd456 send it immediately.,HIGH,3,3,1,0,0,2,1
+OTP 728391 card 5555555555554444 please share it.,HIGH,2,2,1,1,0,1,0
+passport M2468135 date of birth 15/08/2004 account 987654321098 card 5555555555554444 for reference.,CRITICAL,5,5,0,2,1,0,0
+URGENT: PAN ABCDE1234F for reference.,MEDIUM,1,1,0,0,1,1,1
+card 4111111111111111 to process the refund.,MEDIUM,1,1,0,1,0,1,0
+card 4111111111111111 password SecurePwd456 GSTIN 27FGHIJ5678K2Z6 date of birth 15/08/2004 please upload it.,CRITICAL,4,4,1,1,0,1,0
+card 4111111111111111 email demo.user@mail.com passport K7654321 for reference.,MEDIUM,3,3,0,1,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+phone +91 9123456789 card 5555555555554444 date of birth 15/08/2004 passport K7654321 for the project record.,HIGH,4,4,0,1,0,0,0
+PAN ABCDE1234F account 123456789012 for reference.,HIGH,3,3,0,1,2,0,0
+GSTIN 37ABCDE1234F1Z5 for the project record.,LOW,1,1,0,0,0,0,0
+Voter ID XYZ7654321 PAN FGHIJ5678K password DemoPass789 card 4111111111111111 please upload it.,CRITICAL,4,4,1,1,1,1,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 OTP 728391 card 5555555555554444 send it immediately.,CRITICAL,3,3,1,1,0,2,1
+email user@example.com please share it.,LOW,1,1,0,0,0,1,0
+password MySecretPass123 to process the refund.,MEDIUM,1,1,1,0,0,1,0
+UPI ID student@upi card 4111111111111111 driving license KA05 20210054321 email demo.user@mail.com for identity verification.,HIGH,4,4,0,1,0,1,0
+URGENT: Aadhaar 3456 7890 1234 for registration.,MEDIUM,1,1,0,0,1,2,1
+UPI ID mahendra@oksbi for reference.,LOW,1,1,0,0,0,0,0
+card 5555555555554444 OTP 582941 URGENT: provide it now.,CRITICAL,2,2,1,1,0,2,1
+IP address 10.0.0.42 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: Voter ID ABC1234567 IFSC SBIN0001234 card 5555555555554444 for the project record.,HIGH,3,3,0,1,0,1,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+URGENT: email user@example.com UPI ID student@upi IFSC HDFC0001234 send it immediately.,MEDIUM,3,3,0,0,0,3,1
+OTP 482916 Aadhaar 2345 6789 0123 date of birth 15/08/2004 for reference.,HIGH,3,3,1,0,1,0,0
+Voter ID XYZ7654321 date of birth 15/08/2004 for identity verification.,MEDIUM,2,2,0,0,0,1,0
+passport M2468135 phone +91 9123456789 for the project record.,MEDIUM,2,2,0,0,0,0,0
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+GSTIN 27FGHIJ5678K2Z6 because the account is being reviewed.,LOW,1,1,0,0,0,0,0
+Aadhaar 3456 7890 1234 Voter ID ABC1234567 password SecurePwd456 because the account is being reviewed.,HIGH,3,3,1,0,1,0,0
+OTP 728391 for the project record.,MEDIUM,1,1,1,0,0,0,0
+password DemoPass789 OTP 839201 send it immediately.,CRITICAL,2,2,2,0,0,2,1
+OTP 582941 GSTIN 27FGHIJ5678K2Z6 date of birth 15/08/2004 phone +91 9988776655 for registration.,HIGH,4,4,1,0,0,1,0
+URGENT: Voter ID XYZ7654321 Aadhaar 4567 8901 2345 for registration.,MEDIUM,2,2,0,0,1,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+Voter ID QWE2468135 IP address 172.16.0.8 PAN ABCDE1234F please upload it.,MEDIUM,3,3,0,0,1,1,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+URGENT: account 987654321098 driving license KA05 20210054321 for the project record.,CRITICAL,3,3,0,1,1,1,1
+UPI ID mahendra@oksbi for reference.,LOW,1,1,0,0,0,0,0
+account 456789012345 Aadhaar 3456 7890 1234 GSTIN 37ABCDE1234F1Z5 to complete account verification.,HIGH,4,3,0,1,2,1,0
+password DemoPass789 PAN ABCDE1234F phone +91 9876543210 for reference.,HIGH,3,3,1,0,1,0,0
+URGENT: IFSC HDFC0001234 Voter ID ABC1234567 to process the refund.,MEDIUM,2,2,0,0,0,2,1
+card 5555555555554444 OTP 582941 because the account is being reviewed.,HIGH,2,2,1,1,0,0,0
+account 987654321098 for reference.,MEDIUM,2,2,0,1,1,0,0
+password MySecretPass123 for reference.,MEDIUM,1,1,1,0,0,0,0
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+phone +91 9876543210 IP address 192.168.1.25 date of birth 15/08/2004 account 987654321098 for reference.,HIGH,5,5,0,1,1,0,0
+GSTIN 27FGHIJ5678K2Z6 password SecurePwd456 passport K7654321 for registration.,HIGH,3,3,1,0,0,1,0
+UPI ID demo.user@icici OTP 728391 GSTIN 37ABCDE1234F1Z5 to process the refund.,HIGH,3,3,1,0,0,1,0
+password SecurePwd456 account 123456789012 for reference.,CRITICAL,3,3,1,1,1,0,0
+URGENT: account 987654321098 Aadhaar 3456 7890 1234 URGENT: provide it now.,HIGH,3,2,0,1,2,2,1
+passport A1234567 for reference.,LOW,1,1,0,0,0,0,0
+IP address 172.16.0.8 GSTIN 29LMNOP9012Q3Z7 Aadhaar 2345 6789 0123 to complete account verification.,MEDIUM,3,3,0,0,1,1,0
+URGENT: Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,1,1
+account 987654321098 Aadhaar 4567 8901 2345 password MySecretPass123 to complete account verification.,HIGH,4,3,1,1,2,1,0
+phone +91 9876543210 for the project record.,LOW,1,1,0,0,0,0,0
+account 123456789012 for identity verification.,MEDIUM,2,2,0,1,1,1,0
+IFSC SBIN0001234 phone +91 9876543210 PAN LMNOP9012Q send it immediately.,HIGH,3,3,0,0,1,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+passport A1234567 account 123456789012 for registration.,HIGH,3,3,0,1,1,1,0
+date of birth 15/08/2004 to process the refund.,LOW,1,1,0,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 PAN LMNOP9012Q GSTIN 37ABCDE1234F1Z5 phone +91 9123456789 for registration.,HIGH,4,4,0,0,1,1,0
+IFSC HDFC0001234 Aadhaar 2345 6789 0123 password DemoPass789 for reference.,HIGH,3,3,1,0,1,0,0
+URGENT: account 987654321098 Aadhaar 4567 8901 2345 PAN LMNOP9012Q date of birth 15/08/2004 send it immediately.,CRITICAL,5,4,0,1,3,3,1
+driving license KA05 20210054321 card 5555555555554444 Voter ID ABC1234567 UPI ID demo.user@icici send it immediately.,HIGH,4,4,0,1,0,2,1
+URGENT: card 4111111111111111 to complete account verification.,MEDIUM,1,1,0,1,0,2,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+IP address 172.16.0.8 OTP 582941 date of birth 15/08/2004 IFSC SBIN0001234 please share it.,HIGH,4,4,1,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+email user@example.com account 123456789012 password SecurePwd456 date of birth 15/08/2004 please share it.,CRITICAL,5,5,1,1,1,1,0
+account 123456789012 for reference.,MEDIUM,2,2,0,1,1,0,0
+PAN FGHIJ5678K card 5555555555554444 for registration.,MEDIUM,2,2,0,1,1,1,0
+driving license KA05 20210054321 passport A1234567 account 456789012345 for reference.,HIGH,4,4,0,1,1,0,0
+Voter ID QWE2468135 PAN LMNOP9012Q for reference.,MEDIUM,2,2,0,0,1,0,0
+card 5555555555554444 date of birth 15/08/2004 passport M2468135 URGENT: provide it now.,HIGH,3,3,0,1,0,2,1
+URGENT: GSTIN 29LMNOP9012Q3Z7 password SecurePwd456 for identity verification.,HIGH,2,2,1,0,0,2,1
+URGENT: phone +91 9988776655 card 5555555555554444 UPI ID demo.user@icici because the account is being reviewed.,HIGH,3,3,0,1,0,1,1
+password DemoPass789 email student@example.com passport M2468135 account 456789012345 to complete account verification.,CRITICAL,5,5,1,1,1,1,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+"Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+IP address 192.168.1.25 Voter ID ABC1234567 account 987654321098 PAN LMNOP9012Q for reference.,CRITICAL,5,5,0,1,2,0,0
+account 987654321098 UPI ID student@upi password MySecretPass123 URGENT: provide it now.,CRITICAL,4,4,1,1,1,2,1
+email contact@example.org OTP 482916 IFSC SBIN0001234 to complete account verification.,HIGH,3,3,1,0,0,1,0
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+account 123456789012 date of birth 15/08/2004 please share it.,HIGH,3,3,0,1,1,1,0
+email demo.user@mail.com please share it.,LOW,1,1,0,0,0,1,0
+IFSC HDFC0001234 account 123456789012 PAN FGHIJ5678K please upload it.,HIGH,4,4,0,1,2,1,0
+Aadhaar 2345 6789 0123 driving license TS09 20190067890 account 456789012345 please upload it.,HIGH,4,3,0,1,2,1,0
+OTP 728391 date of birth 15/08/2004 card 5555555555554444 please upload it.,CRITICAL,3,3,1,1,0,1,0
+driving license TS09 20190067890 for reference.,LOW,1,1,0,0,0,0,0
+URGENT: passport K7654321 account 987654321098 please share it.,HIGH,3,3,0,1,1,2,1
+passport K7654321 for reference.,LOW,1,1,0,0,0,0,0
+Voter ID ABC1234567 for reference.,LOW,1,1,0,0,0,0,0
+driving license TS09 20190067890 PAN FGHIJ5678K phone +91 9123456789 IFSC HDFC0001234 because the account is being reviewed.,HIGH,4,4,0,0,1,0,0
+date of birth 15/08/2004 IP address 172.16.0.8 account 987654321098 for reference.,HIGH,4,4,0,1,1,0,0
+"URGENT: Hello, I am a computer science student working on a software project.",LOW,0,0,0,0,0,1,1
+The application server is available for testing.,LOW,0,0,0,0,0,0,0
+IFSC HDFC0001234 driving license AP01 20230012345 password MySecretPass123 account 123456789012 for reference.,CRITICAL,5,5,1,1,1,0,0
+Voter ID QWE2468135 card 5555555555554444 OTP 582941 for the project record.,CRITICAL,3,3,1,1,0,0,0
+URGENT: Voter ID ABC1234567 please upload it.,MEDIUM,1,1,0,0,0,2,1
+Please review the project requirements and submit the assignment tomorrow.,LOW,0,0,0,0,0,0,0
+date of birth 15/08/2004 IP address 192.168.1.25 password SecurePwd456 PAN FGHIJ5678K for registration.,CRITICAL,4,4,1,0,1,1,0
+Voter ID XYZ7654321 account 456789012345 for reference.,HIGH,3,3,0,1,1,0,0
+password DemoPass789 phone +91 9876543210 Voter ID QWE2468135 card 5555555555554444 for registration.,CRITICAL,4,4,1,1,0,1,0
