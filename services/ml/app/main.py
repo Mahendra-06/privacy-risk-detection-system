@@ -3,7 +3,9 @@ from __future__ import annotations
 import base64
 import io
 import ipaddress
+import os
 import re
+import shutil
 from typing import Any
 from urllib.parse import urlparse
 
@@ -20,6 +22,24 @@ import json
 from pathlib import Path
 
 import joblib
+
+
+def configure_tesseract() -> None:
+    configured = os.environ.get("TESSERACT_CMD")
+    if configured:
+        pytesseract.pytesseract.tesseract_cmd = configured
+    elif not shutil.which("tesseract") and os.name == "nt":
+        for root in (os.environ.get("ProgramFiles"), os.environ.get("LOCALAPPDATA")):
+            if not root:
+                continue
+            for folder in ("Tesseract-OCR", "Programs/Tesseract-OCR"):
+                candidate = Path(root) / folder / "tesseract.exe"
+                if candidate.is_file():
+                    pytesseract.pytesseract.tesseract_cmd = str(candidate)
+                    return
+
+
+configure_tesseract()
 
 app = FastAPI(title="Privacy Risk ML Service", version="1.1.0")
 
@@ -76,6 +96,7 @@ MODEL_PATH = MODEL_DIR / "privacy_risk_model.joblib"
 METADATA_PATH = MODEL_DIR / "metadata.json"
 if not MODEL_PATH.exists():
     raise RuntimeError("Trained privacy-risk model is missing. Build the ML image so scripts/train_model.py runs first.")
+# Persisted classifier and benchmark metadata
 classifier = joblib.load(MODEL_PATH)
 model_metadata = json.loads(METADATA_PATH.read_text(encoding="utf-8")) if METADATA_PATH.exists() else {}
 
@@ -97,7 +118,16 @@ class AnalyzeRequest(BaseModel):
 
 def _ocr_image(image: Image.Image) -> tuple[str, float]:
     """Run local Tesseract OCR and return text plus mean word confidence."""
-    data = pytesseract.image_to_data(image, output_type=Output.DICT, config="--psm 6")
+    # Discover installations added after the development server started.
+    configure_tesseract()
+    try:
+        data = pytesseract.image_to_data(image, output_type=Output.DICT, config="--psm 6", timeout=20)
+    except pytesseract.TesseractNotFoundError as exc:
+        raise HTTPException(503, "OCR is unavailable. Install Tesseract OCR and add it to PATH or set TESSERACT_CMD to its executable, then restart the ML service.") from exc
+    except pytesseract.TesseractError as exc:
+        raise HTTPException(503, "OCR engine failed. Check the Tesseract installation and language data.") from exc
+    except RuntimeError as exc:
+        raise HTTPException(504, "OCR timed out. Try a smaller or clearer image.") from exc
     words: list[str] = []
     confidences: list[float] = []
     for word, raw_conf in zip(data.get("text", []), data.get("conf", [])):
@@ -156,6 +186,8 @@ def extract_document(req: AnalyzeRequest) -> tuple[str, dict[str, Any]]:
             return "\n\n".join(chunks)[:150_000], {
                 "extractionMethod": "hybrid_pdf", "ocrUsed": ocr_used, "pages": pages
             }
+        except HTTPException:
+            raise
         except Exception as exc:
             raise HTTPException(400, "Unable to read PDF or run OCR") from exc
     if mime == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
@@ -170,8 +202,10 @@ def extract_document(req: AnalyzeRequest) -> tuple[str, dict[str, Any]]:
                 "ocrUsed": True,
                 "pages": [{"page": 1, "method": "ocr", "characters": len(text), "ocrConfidence": round(confidence, 3)}],
             }
+        except HTTPException:
+            raise
         except Exception as exc:
-            raise HTTPException(400, "Unable to read image or run OCR") from exc
+            raise HTTPException(400, "Unable to read image. Upload a valid PNG, JPEG, WEBP, BMP, or TIFF file.") from exc
     raise HTTPException(415, "Unsupported document type")
 
 

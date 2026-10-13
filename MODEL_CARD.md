@@ -6,12 +6,15 @@ Classify privacy exposure into LOW, MEDIUM, HIGH, or CRITICAL after structured P
 ## Current ML pipeline
 1. Structured PII recognition and contextual NLP extract privacy signals.
 2. Seven numeric features are generated: finding count, distinct PII types, authentication count, financial count, government-ID count, contextual-language hits, and urgency.
-3. Three supervised classifiers are trained and evaluated:
-   - Logistic Regression — baseline
+3. Five supervised classifiers (based on the reference implementation) are trained and evaluated:
+   - Logistic Regression
+   - Decision Tree
    - Random Forest
    - Gradient Boosting
-4. The model with the best macro-F1 on the held-out test set is selected automatically.
-5. The selected model is persisted as a versioned `joblib` artifact in the repository model directory.
+   - XGBoost
+4. The model with the best macro-F1 on the held-out test set is selected.
+5. Hyperparameter tuning via 5-fold cross-validation `GridSearchCV` is executed on the selected best model.
+6. The tuned best model is persisted as `services/ml/models/privacy_risk_model.joblib` with metadata in `services/ml/models/metadata.json`.
 
 ## Benchmark dataset
 - 1,200 labeled examples
@@ -20,14 +23,22 @@ Classify privacy exposure into LOW, MEDIUM, HIGH, or CRITICAL after structured P
 - Fixed random seed: 42
 - Dataset is **synthetically generated for academic benchmarking**. It is not a substitute for a real-world privacy corpus and should not be presented as externally validated data.
 
-## Current benchmark results
+## Model comparison results
 | Model | Accuracy | Precision (macro) | Recall (macro) | F1 (macro) |
 |---|---:|---:|---:|---:|
-| Logistic Regression | 87.50% | 88.00% | 87.50% | 87.52% |
-| Random Forest | 92.50% | 93.20% | 92.50% | 92.60% |
-| Gradient Boosting | 93.33% | 93.81% | 93.33% | 93.40% |
+| **XGBoost (Selected)** | **93.33%** | **93.47%** | **93.33%** | **93.23%** |
+| Random Forest | 92.92% | 93.17% | 92.92% | 92.84% |
+| Decision Tree | 92.92% | 92.99% | 92.92% | 92.80% |
+| Logistic Regression | 92.92% | 93.08% | 92.92% | 92.79% |
+| Gradient Boosting | 90.42% | 90.46% | 90.42% | 90.24% |
 
-The bundled model artifact is the selected model produced by the training pipeline. Check `services/ml/models/metadata.json` for the exact benchmark associated with the current artifact.
+### Tuned Best Model (XGBoost after GridSearchCV)
+- **Best Hyperparameters**: `{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}`
+- **Cross-Validation Macro-F1 (5-Fold CV)**: **96.57%**
+- **Test Accuracy**: **93.75%**
+- **Test Macro F1**: **93.67%**
+
+The bundled model artifact is the tuned best model produced by the training pipeline. Check `services/ml/models/metadata.json` for the exact benchmark associated with the current artifact.
 
 ## Important interpretation
 These metrics demonstrate that the training/evaluation pipeline works; they do **not** establish production-level accuracy. The next ML milestone is evaluation on a representative, independently labeled privacy-risk dataset.

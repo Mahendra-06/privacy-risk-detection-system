@@ -9,6 +9,7 @@ const helmet_1 = __importDefault(require("helmet"));
 const morgan_1 = __importDefault(require("morgan"));
 const express_rate_limit_1 = __importDefault(require("express-rate-limit"));
 const mongoose_1 = __importDefault(require("mongoose"));
+const axios_1 = __importDefault(require("axios"));
 const config_js_1 = require("./config.js");
 const auth_js_1 = __importDefault(require("./routes/auth.js"));
 const scans_js_1 = __importDefault(require("./routes/scans.js"));
@@ -24,6 +25,17 @@ app.use('/api/auth', auth_js_1.default);
 app.use('/api/scans', scans_js_1.default);
 app.use('/api/dashboard', dashboard_js_1.default);
 app.use((err, _req, res, _next) => {
+    if (axios_1.default.isAxiosError(err)) {
+        const upstreamStatus = err.response?.status;
+        const status = upstreamStatus && [400, 413, 415, 422, 503, 504].includes(upstreamStatus)
+            ? upstreamStatus : (err.code === 'ECONNABORTED' ? 504 : 502);
+        const detail = err.response?.data?.detail;
+        const message = upstreamStatus === status && typeof detail === 'string'
+            ? detail : (status === 504 ? 'Analysis timed out. Try a smaller document.' : 'Analysis service is unavailable. Please try again.');
+        // Axios errors contain the uploaded document in config.data; never log them whole.
+        console.error('Analysis request failed', { status, upstreamStatus, code: err.code });
+        return res.status(status).json({ message });
+    }
     console.error(err);
     if (err?.name === 'ZodError')
         return res.status(400).json({ message: 'Invalid request', issues: err.issues });

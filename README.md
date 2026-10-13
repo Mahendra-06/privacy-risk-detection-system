@@ -44,7 +44,7 @@ npm --prefix apps/web install
 python -m pip install -r services/ml/requirements.txt
 ```
 
-Make sure MongoDB is running locally on port `27017`. For OCR, install Tesseract and ensure `tesseract.exe` is available on PATH.
+Make sure MongoDB is running locally on port `27017`. For OCR, install Tesseract and ensure `tesseract.exe` is available on PATH. Standard Windows Tesseract install locations are also detected automatically. For a custom location, set `$env:TESSERACT_CMD = 'C:\path\to\tesseract.exe'` in PowerShell before running `npm run dev`. Restart the ML service after installing or configuring Tesseract. Installing the Python `pytesseract` package alone does not install the OCR engine.
 
 ### Start the entire application
 
