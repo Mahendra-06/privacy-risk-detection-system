@@ -10,14 +10,13 @@ const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } });
 const redactionEnum = z.enum(['tagged', 'mask', 'synthetic', 'blackout']).optional().default('tagged');
 const textSchema = z.object({ text: z.string().min(1).max(100_000), redactionMode: redactionEnum });
-const urlSchema = z.object({ url: z.string().url().max(2048), redactionMode: redactionEnum });
 
 async function analyze(payload: Record<string, unknown>) {
   const response = await axios.post(`${config.mlServiceUrl}/analyze`, payload, { timeout: 30_000 });
   return response.data;
 }
 
-async function persist(req: any, sourceType: 'text' | 'document' | 'url', sourceName: string, result: any, requestedMode: string = 'tagged') {
+async function persist(req: any, sourceType: 'text' | 'document', sourceName: string, result: any, requestedMode: string = 'tagged') {
   const chosenMode = result.redactionMode || requestedMode;
   const variations = result.redactedVariations || { [chosenMode]: result.redactedText };
   return Scan.create({
@@ -41,15 +40,6 @@ router.post('/text', requireAuth, async (req, res, next) => {
     const { text, redactionMode } = textSchema.parse(req.body);
     const result = await analyze({ text, sourceType: 'text', redactionMode });
     const scan = await persist(req, 'text', 'Pasted text', result, redactionMode);
-    return res.status(201).json({ scan, analysis: result });
-  } catch (e) { next(e); }
-});
-
-router.post('/url', requireAuth, async (req, res, next) => {
-  try {
-    const { url, redactionMode } = urlSchema.parse(req.body);
-    const result = await analyze({ text: url, sourceType: 'url', url, redactionMode });
-    const scan = await persist(req, 'url', url, result, redactionMode);
     return res.status(201).json({ scan, analysis: result });
   } catch (e) { next(e); }
 });

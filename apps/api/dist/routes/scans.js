@@ -14,7 +14,6 @@ const router = (0, express_1.Router)();
 const upload = (0, multer_1.default)({ storage: multer_1.default.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } });
 const redactionEnum = zod_1.z.enum(['tagged', 'mask', 'synthetic', 'blackout']).optional().default('tagged');
 const textSchema = zod_1.z.object({ text: zod_1.z.string().min(1).max(100_000), redactionMode: redactionEnum });
-const urlSchema = zod_1.z.object({ url: zod_1.z.string().url().max(2048), redactionMode: redactionEnum });
 async function analyze(payload) {
     const response = await axios_1.default.post(`${config_js_1.config.mlServiceUrl}/analyze`, payload, { timeout: 30_000 });
     return response.data;
@@ -42,17 +41,6 @@ router.post('/text', auth_js_1.requireAuth, async (req, res, next) => {
         const { text, redactionMode } = textSchema.parse(req.body);
         const result = await analyze({ text, sourceType: 'text', redactionMode });
         const scan = await persist(req, 'text', 'Pasted text', result, redactionMode);
-        return res.status(201).json({ scan, analysis: result });
-    }
-    catch (e) {
-        next(e);
-    }
-});
-router.post('/url', auth_js_1.requireAuth, async (req, res, next) => {
-    try {
-        const { url, redactionMode } = urlSchema.parse(req.body);
-        const result = await analyze({ text: url, sourceType: 'url', url, redactionMode });
-        const scan = await persist(req, 'url', url, result, redactionMode);
         return res.status(201).json({ scan, analysis: result });
     }
     catch (e) {

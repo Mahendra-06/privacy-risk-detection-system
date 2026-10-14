@@ -25,6 +25,5 @@ export const api={
   scans:()=>request('/scans'),
   scan:(id:string)=>request(`/scans/${id}`),
   text:(text:string, redactionMode:string='tagged')=>request('/scans/text',{method:'POST',body:JSON.stringify({text, redactionMode})}),
-  url:(url:string, redactionMode:string='tagged')=>request('/scans/url',{method:'POST',body:JSON.stringify({url, redactionMode})}),
   document:(file:File, redactionMode:string='tagged')=>{const f=new FormData();f.append('file',file);f.append('redactionMode',redactionMode);return request('/scans/document',{method:'POST',body:f})}
 };

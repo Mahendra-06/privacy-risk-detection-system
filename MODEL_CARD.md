@@ -48,7 +48,6 @@ These metrics demonstrate that the training/evaluation pipeline works; they do *
 - Structured recognizers are intentionally transparent and complement the ML classifier.
 - Region-specific Indian identifiers should be expanded and validated with representative data.
 - OCR supports images and scanned PDF pages through local Tesseract. OCR confidence is an extraction-quality signal and does not guarantee complete PII detection.
-- URL scanning analyzes the URL string rather than crawling or executing remote pages.
 - Raw sensitive input should not be retained unless a feature explicitly requires it.
 
 

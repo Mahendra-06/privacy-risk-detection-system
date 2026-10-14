@@ -13,7 +13,6 @@ ML-powered privacy analysis platform for detecting PII/sensitive information, cl
 - JWT authentication and protected scan history
 - Text scanning
 - Document scanning for TXT, CSV, JSON, PDF and DOCX
-- URL analysis of the submitted URL and query/path signals
 - PII detection: email, phone, Aadhaar-like ID, PAN-like ID, bank account, card, IP, address/context, OTP/authentication context
 - ML risk classification: LOW / MEDIUM / HIGH / CRITICAL
 - Explainable factors and recommendations

@@ -44,7 +44,7 @@ const findingSchema = new mongoose_1.Schema({
 }, { _id: false });
 const scanSchema = new mongoose_1.Schema({
     userId: { type: mongoose_1.Schema.Types.ObjectId, ref: 'User', required: true, index: true },
-    sourceType: { type: String, enum: ['text', 'document', 'url'], required: true },
+    sourceType: { type: String, enum: ['text', 'document'], required: true },
     sourceName: { type: String, default: '' },
     riskLevel: { type: String, enum: ['LOW', 'MEDIUM', 'HIGH', 'CRITICAL'], required: true },
     riskScore: { type: Number, required: true },

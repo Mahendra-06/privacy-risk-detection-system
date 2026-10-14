@@ -7,7 +7,6 @@ import os
 import re
 import shutil
 from typing import Any
-from urllib.parse import urlparse
 
 from docx import Document
 from fastapi import FastAPI, HTTPException
@@ -109,7 +108,6 @@ matcher.add("PERSON_CONTEXT", [[{"LOWER": {"IN": ["name", "called"]}}, {"LOWER":
 class AnalyzeRequest(BaseModel):
     text: str | None = Field(default=None, max_length=150_000)
     sourceType: str = "text"
-    url: str | None = None
     contentBase64: str | None = None
     filename: str | None = None
     mimeType: str | None = None
@@ -443,7 +441,6 @@ def analyze_text(text: str, source_type: str, redaction_mode: str = "tagged") ->
     if any(f["type"] in {"PASSWORD", "OTP"} for f in findings): recommendations.append("Never share passwords or one-time authentication codes with another person or untrusted service.")
     if any(f["type"] in {"AADHAAR", "PAN", "BANK_ACCOUNT", "CARD", "UPI_ID", "IFSC", "GSTIN", "VOTER_ID", "PASSPORT", "DRIVING_LICENSE"} for f in findings): recommendations.append("Verify the recipient and business purpose independently before sharing government or financial identifiers.")
     if any(s["category"] == "urgency" for s in signals): recommendations.append("Treat urgent requests for sensitive information as potentially suspicious and verify through an independent channel.")
-    if source_type == "url": recommendations.append("Check the destination domain, HTTPS status, and legitimacy before entering personal data.")
     if not recommendations: recommendations.append("Continue minimizing personal information and only share what is necessary for the stated purpose.")
 
     contributions = local_model_contributions(features, probabilities)
@@ -481,7 +478,6 @@ def model_info():
 @app.post('/analyze')
 def analyze(req: AnalyzeRequest):
     text, extraction = extract_document(req)
-    if not text.strip() and req.url: text = req.url
     if not text.strip(): raise HTTPException(400, "No analyzable content provided")
     result = analyze_text(text, req.sourceType, req.redactionMode)
     result["documentIntelligence"] = extraction

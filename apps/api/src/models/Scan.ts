@@ -11,7 +11,7 @@ const findingSchema = new Schema({
 
 const scanSchema = new Schema({
   userId: { type: Schema.Types.ObjectId, ref: 'User', required: true, index: true },
-  sourceType: { type: String, enum: ['text', 'document', 'url'], required: true },
+  sourceType: { type: String, enum: ['text', 'document'], required: true },
   sourceName: { type: String, default: '' },
   riskLevel: { type: String, enum: ['LOW', 'MEDIUM', 'HIGH', 'CRITICAL'], required: true },
   riskScore: { type: Number, required: true },

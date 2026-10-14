@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FileUp, Link2, ScanLine, ClipboardPaste, Tag, Asterisk, Sparkles, Square } from 'lucide-react';
+import { FileUp, ScanLine, ClipboardPaste, Tag, Asterisk, Sparkles, Square } from 'lucide-react';
 import Layout from '../components/Layout';
 import RiskBadge from '../components/RiskBadge';
 import RedactedPreview, { RedactionMode } from '../components/RedactedPreview';
@@ -13,9 +13,8 @@ const REDACTION_OPTIONS: { id: RedactionMode; label: string; icon: any; sample: 
 ];
 
 export default function Scan() {
-  const [tab, setTab] = useState<'text' | 'document' | 'url'>('text');
+  const [tab, setTab] = useState<'text' | 'document'>('text');
   const [text, setText] = useState('');
-  const [url, setUrl] = useState('');
   const [file, setFile] = useState<File | null>(null);
   const [redactionMode, setRedactionMode] = useState<RedactionMode>('tagged');
   const [result, setResult] = useState<any>(null);
@@ -30,8 +29,6 @@ export default function Scan() {
       const r =
         tab === 'text'
           ? await api.text(text, redactionMode)
-          : tab === 'url'
-          ? await api.url(url, redactionMode)
           : await api.document(file!, redactionMode);
       setResult(r.analysis);
     } catch (e: any) {
@@ -47,7 +44,7 @@ export default function Scan() {
         <div className="mb-7">
           <p className="text-cyan-300 text-sm font-semibold">Privacy analysis</p>
           <h1 className="text-3xl font-bold">New scan</h1>
-          <p className="text-slate-400 mt-2">Analyze text, documents, or URLs for sensitive-data exposure.</p>
+          <p className="text-slate-400 mt-2">Analyze text or documents for sensitive-data exposure.</p>
         </div>
 
         <div className="grid lg:grid-cols-[1.15fr_.85fr] gap-6">
@@ -56,7 +53,6 @@ export default function Scan() {
               {[
                 ['text', 'Text', ClipboardPaste],
                 ['document', 'Document', FileUp],
-                ['url', 'URL', Link2],
               ].map(([id, label, Icon]: any) => (
                 <button
                   key={id}
@@ -78,21 +74,6 @@ export default function Scan() {
                 placeholder="Paste content here… e.g. 'Upload your Aadhaar, PAN, bank account details and OTP'"
                 className="w-full h-72 resize-none bg-slate-950 border border-slate-800 rounded-xl p-4 outline-none focus:border-cyan-400 text-sm leading-6"
               />
-            )}
-
-            {tab === 'url' && (
-              <div>
-                <label className="text-sm text-slate-400">URL to analyze</label>
-                <input
-                  value={url}
-                  onChange={(e) => setUrl(e.target.value)}
-                  placeholder="https://example.com/account?email=test@example.com"
-                  className="w-full mt-2 bg-slate-950 border border-slate-800 rounded-xl p-4 outline-none focus:border-cyan-400"
-                />
-                <p className="text-xs text-slate-500 mt-3">
-                  The baseline analyzes the URL itself and its query/path signals; it does not execute JavaScript or submit credentials.
-                </p>
-              </div>
             )}
 
             {tab === 'document' && (
@@ -143,7 +124,7 @@ export default function Scan() {
             {error && <div className="mt-4 p-3 rounded-xl bg-red-500/10 text-red-300 text-sm">{error}</div>}
 
             <button
-              disabled={busy || (tab === 'text' && !text.trim()) || (tab === 'url' && !url.trim()) || (tab === 'document' && !file)}
+              disabled={busy || (tab === 'text' && !text.trim()) || (tab === 'document' && !file)}
               onClick={run}
               className="w-full mt-5 py-3 rounded-xl bg-cyan-400 text-slate-950 font-bold disabled:opacity-40 flex items-center justify-center gap-2 transition-opacity"
             >
